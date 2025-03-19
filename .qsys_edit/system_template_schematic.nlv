@@ -1,0 +1,24 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst system.nios2_gen2_0.cpu -pg 1
+preplace inst system.nios2_gen2_0.clock_bridge -pg 1
+preplace inst system.jtag_uart_0 -pg 1 -lvl 3 -y 110
+preplace inst system.nios2_gen2_0.reset_bridge -pg 1
+preplace inst system.onchip_memory2_0 -pg 1 -lvl 3 -y 30
+preplace inst system.nios2_gen2_0 -pg 1 -lvl 2 -y 120
+preplace inst system.Red_leds_0 -pg 1 -lvl 3 -y 270
+preplace inst system.Switches_0 -pg 1 -lvl 3 -y 370
+preplace inst system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst system.decode_to_HEX_0 -pg 1 -lvl 3 -y 470
+preplace inst system.clk_0 -pg 1 -lvl 1 -y 30
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)decode_to_HEX_0.conduit_end,(SLAVE)system.decode_to_hex_0_conduit_end) 1 0 3 NJ 520 NJ 520 NJ
+preplace netloc FAN_OUT<net_container>system</net_container>(MASTER)clk_0.clk,(SLAVE)jtag_uart_0.clk,(SLAVE)onchip_memory2_0.clk1,(SLAVE)nios2_gen2_0.clk,(SLAVE)decode_to_HEX_0.clock_sink,(SLAVE)Switches_0.clock_sink,(SLAVE)Red_leds_0.clock_sink) 1 1 2 410 60 790
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)Switches_0.conduit_end,(SLAVE)system.switches_0_conduit_end) 1 0 3 NJ 420 NJ 420 NJ
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)Red_leds_0.conduit_end,(SLAVE)system.red_leds_0_conduit_end) 1 0 3 NJ 320 NJ 320 NJ
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)clk_0.clk_in,(SLAVE)system.clk) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>system</net_container>(SLAVE)Switches_0.avalon_slave_0,(MASTER)nios2_gen2_0.instruction_master,(SLAVE)Red_leds_0.avalon_slave_0,(SLAVE)jtag_uart_0.avalon_jtag_slave,(MASTER)nios2_gen2_0.data_master,(SLAVE)nios2_gen2_0.debug_mem_slave,(SLAVE)decode_to_HEX_0.avalon_slave_0,(SLAVE)onchip_memory2_0.s1) 1 1 2 410 440 830
+preplace netloc INTERCONNECT<net_container>system</net_container>(MASTER)nios2_gen2_0.debug_reset_request,(SLAVE)onchip_memory2_0.reset1,(SLAVE)Switches_0.reset_sink,(MASTER)clk_0.clk_reset,(SLAVE)decode_to_HEX_0.reset_sink,(SLAVE)nios2_gen2_0.reset,(SLAVE)jtag_uart_0.reset,(SLAVE)Red_leds_0.reset_sink) 1 1 2 390 80 810
+preplace netloc POINT_TO_POINT<net_container>system</net_container>(SLAVE)jtag_uart_0.irq,(MASTER)nios2_gen2_0.irq) 1 2 1 850
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)system.reset) 1 0 1 NJ
+levelinfo -pg 1 0 180 1050
+levelinfo -hier system 190 220 550 900 1040
