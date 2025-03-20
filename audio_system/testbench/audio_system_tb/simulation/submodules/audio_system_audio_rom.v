@@ -41,7 +41,7 @@ module audio_system_audio_rom (
 
 
   output  [ 15: 0] readdata;
-  input   [ 17: 0] address;
+  input   [ 16: 0] address;
   input   [  1: 0] byteenable;
   input            chipselect;
   input            clk;
@@ -73,8 +73,8 @@ wire             wren;
   defparam the_altsyncram.byte_size = 8,
            the_altsyncram.init_file = INIT_FILE,
            the_altsyncram.lpm_type = "altsyncram",
-           the_altsyncram.maximum_depth = 240256,
-           the_altsyncram.numwords_a = 240256,
+           the_altsyncram.maximum_depth = 120127,
+           the_altsyncram.numwords_a = 120127,
            the_altsyncram.operation_mode = "SINGLE_PORT",
            the_altsyncram.outdata_reg_a = "UNREGISTERED",
            the_altsyncram.ram_block_type = "AUTO",
@@ -82,7 +82,7 @@ wire             wren;
            the_altsyncram.read_during_write_mode_port_a = "DONT_CARE",
            the_altsyncram.width_a = 16,
            the_altsyncram.width_byteena_a = 2,
-           the_altsyncram.widthad_a = 18;
+           the_altsyncram.widthad_a = 17;
 
   //s1, which is an e_avalon_slave
   //s2, which is an e_avalon_slave

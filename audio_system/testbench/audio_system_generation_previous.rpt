@@ -1,0 +1,408 @@
+Info: Starting: Create testbench Platform Designer system
+Info: D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/audio_system/testbench/audio_system.ipx
+Info: qsys-generate D:\FETEL_WorkDir\Y4S2_HeThongNhung\DE10_Standard_Audio\audio_system.qsys --testbench=SIMPLE --output-directory=D:\FETEL_WorkDir\Y4S2_HeThongNhung\DE10_Standard_Audio --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading DE10_Standard_Audio/audio_system.qsys
+Progress: Reading input file
+Progress: Adding audio [altera_up_avalon_audio 18.0]
+Progress: Parameterizing module audio
+Progress: Adding audio_config [altera_up_avalon_audio_and_video_config 18.0]
+Progress: Parameterizing module audio_config
+Progress: Adding audio_pll_0 [altera_up_avalon_audio_pll 18.0]
+Progress: Parameterizing module audio_pll_0
+Progress: Adding audio_rom [altera_avalon_onchip_memory2 23.1]
+Progress: Parameterizing module audio_rom
+Progress: Adding clk_0 [clock_source 23.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 23.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding key_pio [altera_avalon_pio 23.1]
+Progress: Parameterizing module key_pio
+Progress: Adding led_pio [altera_avalon_pio 23.1]
+Progress: Parameterizing module led_pio
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 23.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 23.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding switch_pio [altera_avalon_pio 23.1]
+Progress: Parameterizing module switch_pio
+Progress: Adding timer_0 [altera_avalon_timer 23.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: audio_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: audio_system.key_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: audio_system.nios2_gen2_0: Nios II cores are not recommended for new projects and are subject to removal in a future release. Nios V cores are the recommended replacement as applicable.
+Info: audio_system.switch_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index D:\fetel_worksoft\intelfpga_lite\23.1std\quartus\sopc_builder\bin\root_components.ipx
+Info: D:\fetel_worksoft\intelfpga_lite\23.1std\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
+Info: Reading index D:\fetel_worksoft\intelfpga_lite\23.1std\quartus\sopc_builder\bin\ip_component_categories.ipx
+Info: D:\fetel_worksoft\intelfpga_lite\23.1std\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0.00 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.00 seconds
+Info: D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/audio_system/testbench/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index D:\FETEL_WorkDir\Y4S2_HeThongNhung\DE10_Standard_Audio\audio_system\testbench\audio_system.ipx
+Progress: Loading DE10_Standard_Audio/audio_system.qsys
+Info: D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/* matched 9 files in 0.00 seconds
+Info: D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/ip/**/* matched 0 files in 0.00 seconds
+Info: D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/*/* matched 29 files in 0.01 seconds
+Info: D:\FETEL_WorkDir\Y4S2_HeThongNhung\DE10_Standard_Audio\audio_system\testbench\audio_system.ipx described 0 plugins, 3 paths, in 0.02 seconds
+Info: D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/audio_system/testbench/* matched 4 files in 0.02 seconds
+Info: D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/audio_system/testbench/*/* matched 0 files in 0.00 seconds
+Info: C:/Users/btdat/.altera.quartus/ip/23.1/**/* matched 0 files in 0.00 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0.00 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0.00 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0.00 seconds
+Info: Reading index D:\fetel_worksoft\intelfpga_lite\23.1std\ip\altera\altera_components.ipx
+Info: D:\fetel_worksoft\intelfpga_lite\23.1std\ip\altera\altera_components.ipx described 1982 plugins, 0 paths, in 0.16 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/23.1std/ip/**/* matched 108 files in 0.16 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index D:\fetel_worksoft\intelfpga_lite\23.1std\quartus\sopc_builder\builtin.ipx
+Info: D:\fetel_worksoft\intelfpga_lite\23.1std\quartus\sopc_builder\builtin.ipx described 87 plugins, 0 paths, in 0.00 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/**/* matched 8 files in 0.01 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/common/librarian/factories/**/* matched 0 files in 0.00 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
+Info: D:\fetel_worksoft\intelfpga_lite\23.1std\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0.20 seconds
+Info: D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.20 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: audio_system
+Info: TB_Gen: System design is: audio_system
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property audio_config_i2c EXPORT_OF
+Info: get_instance_property audio_config CLASS_NAME
+Info: get_instance_assignment audio_config testbench.partner.map.external_interface
+Info: get_interface_property audio_interface EXPORT_OF
+Info: get_instance_property audio CLASS_NAME
+Info: get_instance_assignment audio testbench.partner.map.external_interface
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in
+Info: get_interface_property key_external EXPORT_OF
+Info: get_instance_property key_pio CLASS_NAME
+Info: get_instance_assignment key_pio testbench.partner.map.external_connection
+Info: get_interface_property led_external EXPORT_OF
+Info: get_instance_property led_pio CLASS_NAME
+Info: get_instance_assignment led_pio testbench.partner.map.external_connection
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in_reset
+Info: get_interface_property switch_external EXPORT_OF
+Info: get_instance_property switch_pio CLASS_NAME
+Info: get_instance_assignment switch_pio testbench.partner.map.external_connection
+Info: send_message Info TB_Gen: Creating testbench system : audio_system_tb with clock and reset BFMs
+Info: TB_Gen: Creating testbench system : audio_system_tb with clock and reset BFMs
+Info: create_system audio_system_tb
+Info: add_instance audio_system_inst audio_system 
+Info: set_use_testbench_naming_pattern true audio_system
+Info: get_instance_interfaces audio_system_inst
+Info: get_instance_interface_property audio_system_inst audio_config_i2c CLASS_NAME
+Info: get_instance_interface_property audio_system_inst audio_interface CLASS_NAME
+Info: get_instance_interface_property audio_system_inst clk CLASS_NAME
+Info: get_instance_interface_property audio_system_inst key_external CLASS_NAME
+Info: get_instance_interface_property audio_system_inst led_external CLASS_NAME
+Info: get_instance_interface_property audio_system_inst reset CLASS_NAME
+Info: get_instance_interface_property audio_system_inst switch_external CLASS_NAME
+Info: get_instance_interface_property audio_system_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property audio_system_inst clk CLASS_NAME
+Info: add_instance audio_system_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property audio_system_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value audio_system_inst clk clockRate
+Info: set_instance_parameter_value audio_system_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value audio_system_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property audio_system_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property audio_system_inst clk CLASS_NAME
+Info: get_instance_interfaces audio_system_inst_clk_bfm
+Info: get_instance_interface_property audio_system_inst_clk_bfm clk CLASS_NAME
+Info: add_connection audio_system_inst_clk_bfm.clk audio_system_inst.clk
+Info: get_instance_interface_property audio_system_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property audio_system_inst reset CLASS_NAME
+Info: add_instance audio_system_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property audio_system_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports audio_system_inst reset
+Info: get_instance_interface_port_property audio_system_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property audio_system_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value audio_system_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value audio_system_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property audio_system_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces audio_system_inst_reset_bfm
+Info: get_instance_interface_property audio_system_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property audio_system_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property audio_system_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value audio_system_inst reset associatedClock
+Info: get_instance_interfaces audio_system_inst_clk_bfm
+Info: get_instance_interface_property audio_system_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: audio_system_inst_reset_bfm is not associated to any clock; connecting audio_system_inst_reset_bfm to 'audio_system_inst_clk_bfm.clk'
+Warning: TB_Gen: audio_system_inst_reset_bfm is not associated to any clock; connecting audio_system_inst_reset_bfm to 'audio_system_inst_clk_bfm.clk'
+Info: add_connection audio_system_inst_clk_bfm.clk audio_system_inst_reset_bfm.clk
+Info: get_instance_interface_property audio_system_inst reset CLASS_NAME
+Info: get_instance_interfaces audio_system_inst_reset_bfm
+Info: get_instance_interface_property audio_system_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property audio_system_inst_reset_bfm reset CLASS_NAME
+Info: add_connection audio_system_inst_reset_bfm.reset audio_system_inst.reset
+Info: send_message Info TB_Gen: Saving testbench system: audio_system_tb.qsys
+Info: TB_Gen: Saving testbench system: audio_system_tb.qsys
+Info: save_system audio_system_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/audio_system/testbench/audio_system_tb.qsys
+Info: Done
+Info: qsys-generate D:\FETEL_WorkDir\Y4S2_HeThongNhung\DE10_Standard_Audio\audio_system.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=SIMPLE --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=D:\FETEL_WorkDir\Y4S2_HeThongNhung\DE10_Standard_Audio\audio_system\testbench\audio_system_tb\simulation --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading testbench/audio_system_tb.qsys
+Progress: Reading input file
+Progress: Adding audio_system_inst [audio_system 1.0]
+Progress: Parameterizing module audio_system_inst
+Progress: Adding audio_system_inst_clk_bfm [altera_avalon_clock_source 23.1]
+Progress: Parameterizing module audio_system_inst_clk_bfm
+Progress: Adding audio_system_inst_reset_bfm [altera_avalon_reset_source 23.1]
+Progress: Parameterizing module audio_system_inst_reset_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: audio_system_tb.audio_system_inst.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: audio_system_tb.audio_system_inst.key_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: audio_system_tb.audio_system_inst.nios2_gen2_0: Nios II cores are not recommended for new projects and are subject to removal in a future release. Nios V cores are the recommended replacement as applicable.
+Info: audio_system_tb.audio_system_inst.switch_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: audio_system_tb.audio_system_inst_clk_bfm: Elaborate: altera_clock_source
+Info: audio_system_tb.audio_system_inst_clk_bfm:            $Revision: #1 $
+Info: audio_system_tb.audio_system_inst_clk_bfm:            $Date: 2022/10/30 $
+Info: audio_system_tb.audio_system_inst_reset_bfm: Elaborate: altera_reset_source
+Info: audio_system_tb.audio_system_inst_reset_bfm:            $Revision: #1 $
+Info: audio_system_tb.audio_system_inst_reset_bfm:            $Date: 2022/10/30 $
+Info: audio_system_tb.audio_system_inst_reset_bfm: Reset is negatively asserted.
+Warning: audio_system_tb.audio_system_inst: audio_system_inst.audio_config_i2c must be exported, or connected to a matching conduit.
+Warning: audio_system_tb.audio_system_inst: audio_system_inst.audio_interface must be exported, or connected to a matching conduit.
+Warning: audio_system_tb.audio_system_inst: audio_system_inst.key_external must be exported, or connected to a matching conduit.
+Warning: audio_system_tb.audio_system_inst: audio_system_inst.led_external must be exported, or connected to a matching conduit.
+Warning: audio_system_tb.audio_system_inst: audio_system_inst.switch_external must be exported, or connected to a matching conduit.
+Info: audio_system_tb: Generating audio_system_tb "audio_system_tb" for SIM_VERILOG
+Info: Inserting clock-crossing logic between cmd_demux.src0 and cmd_mux.sink0
+Info: Inserting clock-crossing logic between rsp_demux.src0 and rsp_mux.sink0
+Info: audio_system_inst: "audio_system_tb" instantiated audio_system "audio_system_inst"
+Info: audio_system_inst_clk_bfm: "audio_system_tb" instantiated altera_avalon_clock_source "audio_system_inst_clk_bfm"
+Info: audio_system_inst_reset_bfm: "audio_system_tb" instantiated altera_avalon_reset_source "audio_system_inst_reset_bfm"
+Info: Reusing file D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/audio_system/testbench/audio_system_tb/simulation/submodules/verbosity_pkg.sv
+Info: audio: Starting Generation of Audio Controller
+Info: audio: "audio_system_inst" instantiated altera_up_avalon_audio "audio"
+Info: audio_config: Starting Generation of Audio and Video Config
+Info: audio_config: "audio_system_inst" instantiated altera_up_avalon_audio_and_video_config "audio_config"
+Info: audio_pll_0: "audio_system_inst" instantiated altera_up_avalon_audio_pll "audio_pll_0"
+Info: audio_rom: Starting RTL generation for module 'audio_system_audio_rom'
+Info: audio_rom:   Generation command is [exec cmd /c {set LC_ALL=C&& D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/bin/perl.exe -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/lib -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/common -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=audio_system_audio_rom --dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0006_audio_rom_gen/ --quartus_dir=D:/fetel_worksoft/intelfpga_lite/23.1std/quartus --verilog --config=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0006_audio_rom_gen//audio_system_audio_rom_component_configuration.pl --do_build_sim=1 --sim_dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0006_audio_rom_gen/}]
+Info: audio_rom: Done RTL generation for module 'audio_system_audio_rom'
+Info: audio_rom: "audio_system_inst" instantiated altera_avalon_onchip_memory2 "audio_rom"
+Info: jtag_uart_0: Starting RTL generation for module 'audio_system_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec cmd /c {set LC_ALL=C&& D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/bin/perl.exe -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/lib -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/common -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=audio_system_jtag_uart_0 --dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0007_jtag_uart_0_gen/ --quartus_dir=D:/fetel_worksoft/intelfpga_lite/23.1std/quartus --verilog --config=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0007_jtag_uart_0_gen//audio_system_jtag_uart_0_component_configuration.pl --do_build_sim=1 --sim_dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0007_jtag_uart_0_gen/}]
+Info: jtag_uart_0: Done RTL generation for module 'audio_system_jtag_uart_0'
+Info: jtag_uart_0: "audio_system_inst" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: key_pio: Starting RTL generation for module 'audio_system_key_pio'
+Info: key_pio:   Generation command is [exec cmd /c {set LC_ALL=C&& D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/bin/perl.exe -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/lib -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/common -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=audio_system_key_pio --dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0008_key_pio_gen/ --quartus_dir=D:/fetel_worksoft/intelfpga_lite/23.1std/quartus --verilog --config=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0008_key_pio_gen//audio_system_key_pio_component_configuration.pl --do_build_sim=1 --sim_dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0008_key_pio_gen/}]
+Info: key_pio: Done RTL generation for module 'audio_system_key_pio'
+Info: key_pio: "audio_system_inst" instantiated altera_avalon_pio "key_pio"
+Info: led_pio: Starting RTL generation for module 'audio_system_led_pio'
+Info: led_pio:   Generation command is [exec cmd /c {set LC_ALL=C&& D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/bin/perl.exe -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/lib -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/common -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=audio_system_led_pio --dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0009_led_pio_gen/ --quartus_dir=D:/fetel_worksoft/intelfpga_lite/23.1std/quartus --verilog --config=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0009_led_pio_gen//audio_system_led_pio_component_configuration.pl --do_build_sim=1 --sim_dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0009_led_pio_gen/}]
+Info: led_pio: Done RTL generation for module 'audio_system_led_pio'
+Info: led_pio: "audio_system_inst" instantiated altera_avalon_pio "led_pio"
+Info: nios2_gen2_0: "audio_system_inst" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'audio_system_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec cmd /c {set LC_ALL=C&& D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/bin/perl.exe -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/bin64/perl/lib -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/common -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=audio_system_onchip_memory2_0 --dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0010_onchip_memory2_0_gen/ --quartus_dir=D:/fetel_worksoft/intelfpga_lite/23.1std/quartus --verilog --config=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0010_onchip_memory2_0_gen//audio_system_onchip_memory2_0_component_configuration.pl --do_build_sim=1 --sim_dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0010_onchip_memory2_0_gen/}]
+Info: onchip_memory2_0: Done RTL generation for module 'audio_system_onchip_memory2_0'
+Info: onchip_memory2_0: "audio_system_inst" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: timer_0: Starting RTL generation for module 'audio_system_timer_0'
+Info: timer_0:   Generation command is [exec cmd /c {set LC_ALL=C&& D:/FETEL_WorkSoft/intelFPGA_lite/23.1std/quartus/bin64//perl/bin/perl.exe -I D:/FETEL_WorkSoft/intelFPGA_lite/23.1std/quartus/bin64//perl/lib -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/common -I D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- D:/fetel_worksoft/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=audio_system_timer_0 --dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0011_timer_0_gen/ --quartus_dir=D:/fetel_worksoft/intelfpga_lite/23.1std/quartus --verilog --config=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0011_timer_0_gen//audio_system_timer_0_component_configuration.pl --do_build_sim=1 --sim_dir=C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0011_timer_0_gen/}]
+Info: timer_0: Done RTL generation for module 'audio_system_timer_0'
+Info: timer_0: "audio_system_inst" instantiated altera_avalon_timer "timer_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "audio_system_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "audio_system_inst" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_synchronizer: "audio_system_inst" instantiated altera_irq_clock_crosser "irq_synchronizer"
+Info: rst_controller: "audio_system_inst" instantiated altera_reset_controller "rst_controller"
+Info: audio_pll: Generating simgen model
+Error: audio_pll: Execution of script C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/proj.tcl failed
+Error: audio_pll: Info: *******************************************************************
+Error: audio_pll: Info: Running Quartus Prime Shell
+Error: audio_pll: Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Error: audio_pll: Info: Copyright (C) 2024  Intel Corporation. All rights reserved.
+Error: audio_pll: Info: Your use of Intel Corporation's design tools, logic functions
+Error: audio_pll: Info: and other software and tools, and any partner logic
+Error: audio_pll: Info: functions, and any output files from any of the foregoing
+Error: audio_pll: Info: (including device programming or simulation files), and any
+Error: audio_pll: Info: associated documentation or information are expressly subject
+Error: audio_pll: Info: to the terms and conditions of the Intel Program License
+Error: audio_pll: Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+Error: audio_pll: Info: the Intel FPGA IP License Agreement, or other applicable license
+Error: audio_pll: Info: agreement, including, without limitation, that your use is for
+Error: audio_pll: Info: the sole purpose of programming logic devices manufactured by
+Error: audio_pll: Info: Intel and sold by Intel or its authorized distributors.  Please
+Error: audio_pll: Info: refer to the applicable agreement for further details, at
+Error: audio_pll: Info: https://fpgasoftware.intel.com/eula.
+Error: audio_pll: Info: Processing started: Thu Mar 20 00:20:44 2025
+Error: audio_pll: Info: Command: quartus_sh -t C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/proj.tcl
+Error: audio_pll: Info (23030): Evaluation of Tcl script C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/proj.tcl was successful
+Error: audio_pll: Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+Error: audio_pll: Info: Peak virtual memory: 4654 megabytes
+Error: audio_pll: Info: Processing ended: Thu Mar 20 00:20:44 2025
+Error: audio_pll: Info: Elapsed time: 00:00:00
+Error: audio_pll: Info: Total CPU time (on all processors): 00:00:00
+Error: audio_pll: TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Error: audio_pll: Execution of script run_simgen_cmd.tcl failed
+Error: audio_pll: Info: *******************************************************************
+Error: audio_pll: Info: Running Quartus Prime Shell
+Error: audio_pll: Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Error: audio_pll: Info: Copyright (C) 2024  Intel Corporation. All rights reserved.
+Error: audio_pll: Info: Your use of Intel Corporation's design tools, logic functions
+Error: audio_pll: Info: and other software and tools, and any partner logic
+Error: audio_pll: Info: functions, and any output files from any of the foregoing
+Error: audio_pll: Info: (including device programming or simulation files), and any
+Error: audio_pll: Info: associated documentation or information are expressly subject
+Error: audio_pll: Info: to the terms and conditions of the Intel Program License
+Error: audio_pll: Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+Error: audio_pll: Info: the Intel FPGA IP License Agreement, or other applicable license
+Error: audio_pll: Info: agreement, including, without limitation, that your use is for
+Error: audio_pll: Info: the sole purpose of programming logic devices manufactured by
+Error: audio_pll: Info: Intel and sold by Intel or its authorized distributors.  Please
+Error: audio_pll: Info: refer to the applicable agreement for further details, at
+Error: audio_pll: Info: https://fpgasoftware.intel.com/eula.
+Error: audio_pll: Info: Processing started: Thu Mar 20 00:20:45 2025
+Error: audio_pll: Info: Command: quartus_sh -t run_simgen_cmd.tcl
+Error: audio_pll: Info: *******************************************************************
+Error: audio_pll: Info: Running Quartus Prime Analysis & Synthesis
+Error: audio_pll: Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Error: audio_pll: Info: Copyright (C) 2024  Intel Corporation. All rights reserved.
+Error: audio_pll: Info: Your use of Intel Corporation's design tools, logic functions
+Error: audio_pll: Info: and other software and tools, and any partner logic
+Error: audio_pll: Info: functions, and any output files from any of the foregoing
+Error: audio_pll: Info: (including device programming or simulation files), and any
+Error: audio_pll: Info: associated documentation or information are expressly subject
+Error: audio_pll: Info: to the terms and conditions of the Intel Program License
+Error: audio_pll: Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+Error: audio_pll: Info: the Intel FPGA IP License Agreement, or other applicable license
+Error: audio_pll: Info: agreement, including, without limitation, that your use is for
+Error: audio_pll: Info: the sole purpose of programming logic devices manufactured by
+Error: audio_pll: Info: Intel and sold by Intel or its authorized distributors.  Please
+Error: audio_pll: Info: refer to the applicable agreement for further details, at
+Error: audio_pll: Info: https://fpgasoftware.intel.com/eula.
+Error: audio_pll: Info: Processing started: Thu Mar 20 00:20:46 2025
+Error: audio_pll: Info: Command: quartus_map audio_system_audio_pll_0_audio_pll.qpf --simgen --ini=disable_check_quartus_compatibility_qsys_only=on --simgen_parameter=CBX_HDL_LANGUAGE=VERILOG
+Error: audio_pll: Info (20034): Auto device selection is not supported for Cyclone V device family. The default device, 5CGXFC7C7F23C8, is set.
+Error: audio_pll: Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Error: audio_pll: Info (20032): Parallel compilation is enabled and will use up to 4 processors
+Error: audio_pll: Info (12021): Found 1 design units, including 1 entities, in source file audio_system_audio_pll_0_audio_pll.v
+Error: audio_pll: Info (12023): Found entity 1: audio_system_audio_pll_0_audio_pll File: C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/audio_system_audio_pll_0_audio_pll.v Line: 2
+Error: audio_pll: Info (12127): Elaborating entity "audio_system_audio_pll_0_audio_pll" for the top level hierarchy
+Error: audio_pll: Info (12128): Elaborating entity "altera_pll" for hierarchy "altera_pll:altera_pll_i" File: C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/audio_system_audio_pll_0_audio_pll.v Line: 85
+Error: audio_pll: Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
+Error: audio_pll: Info (12130): Elaborated megafunction instantiation "altera_pll:altera_pll_i" File: C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/audio_system_audio_pll_0_audio_pll.v Line: 85
+Error: audio_pll: Info (12133): Instantiated megafunction "altera_pll:altera_pll_i" with the following parameter: File: C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/audio_system_audio_pll_0_audio_pll.v Line: 85
+Error: audio_pll: Info (12134): Parameter "fractional_vco_multiplier" = "false"
+Error: audio_pll: Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
+Error: audio_pll: Info (12134): Parameter "operation_mode" = "direct"
+Error: audio_pll: Info (12134): Parameter "number_of_clocks" = "1"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency0" = "12.288135 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift0" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle0" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency1" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift1" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle1" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency2" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift2" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle2" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency3" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift3" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle3" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency4" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift4" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle4" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency5" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift5" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle5" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency6" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift6" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle6" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency7" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift7" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle7" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency8" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift8" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle8" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency9" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift9" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle9" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency10" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift10" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle10" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency11" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift11" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle11" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency12" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift12" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle12" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency13" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift13" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle13" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency14" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift14" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle14" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency15" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift15" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle15" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency16" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift16" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle16" = "50"
+Error: audio_pll: Info (12134): Parameter "output_clock_frequency17" = "0 MHz"
+Error: audio_pll: Info (12134): Parameter "phase_shift17" = "0 ps"
+Error: audio_pll: Info (12134): Parameter "duty_cycle17" = "50"
+Error: audio_pll: Info (12134): Parameter "pll_type" = "General"
+Error: audio_pll: Info (12134): Parameter "pll_subtype" = "General"
+Error: audio_pll: Info (281010): Generating sgate simulator netlist using Simgen
+Error: audio_pll: SIMGEN_PROGRESS Start of Model generation -- 0% complete
+Error: audio_pll: SIMGEN_PROGRESS Phase 1 : Internal Objects created -- 25% complete
+Error: audio_pll: SIMGEN_PROGRESS Phase 2 : Connections between internal objects made -- 60% complete
+Error: audio_pll: SIMGEN_PROGRESS Phase 3 : Netlist generated -- 100% complete
+Error: audio_pll: Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+Error: audio_pll: Info: Peak virtual memory: 4784 megabytes
+Error: audio_pll: Info: Processing ended: Thu Mar 20 00:20:54 2025
+Error: audio_pll: Info: Elapsed time: 00:00:08
+Error: audio_pll: Info: Total CPU time (on all processors): 00:00:01
+Error: audio_pll: TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Error: audio_pll: Info (23030): Evaluation of Tcl script run_simgen_cmd.tcl was successful
+Error: audio_pll: Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+Error: audio_pll: Info: Peak virtual memory: 4668 megabytes
+Error: audio_pll: Info: Processing ended: Thu Mar 20 00:20:54 2025
+Error: audio_pll: Info: Elapsed time: 00:00:09
+Error: audio_pll: Info: Total CPU time (on all processors): 00:00:02
+Error: audio_pll: TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Info: audio_pll: Info: ******************************************************************* Info: Running Quartus Prime Shell     Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition     Info: Copyright (C) 2024  Intel Corporation. All rights reserved.     Info: Your use of Intel Corporation's design tools, logic functions      Info: and other software and tools, and any partner logic      Info: functions, and any output files from any of the foregoing      Info: (including device programming or simulation files), and any      Info: associated documentation or information are expressly subject      Info: to the terms and conditions of the Intel Program License      Info: Subscription Agreement, the Intel Quartus Prime License Agreement,     Info: the Intel FPGA IP License Agreement, or other applicable license     Info: agreement, including, without limitation, that your use is for     Info: the sole purpose of programming logic devices manufactured by     Info: Intel and sold by Intel or its authorized distributors.  Please     Info: refer to the applicable agreement for further details, at     Info: https://fpgasoftware.intel.com/eula.     Info: Processing started: Thu Mar 20 00:20:45 2025 Info: Command: quartus_sh -t run_simgen_cmd.tcl Info: ******************************************************************* Info: Running Quartus Prime Analysis & Synthesis     Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition     Info: Copyright (C) 2024  Intel Corporation. All rights reserved.     Info: Your use of Intel Corporation's design tools, logic functions      Info: and other software and tools, and any partner logic      Info: functions, and any output files from any of the foregoing      Info: (including device programming or simulation files), and any      Info: associated documentation or information are expressly subject      Info: to the terms and conditions of the Intel Program License      Info: Subscription Agreement, the Intel Quartus Prime License Agreement,     Info: the Intel FPGA IP License Agreement, or other applicable license     Info: agreement, including, without limitation, that your use is for     Info: the sole purpose of programming logic devices manufactured by     Info: Intel and sold by Intel or its authorized distributors.  Please     Info: refer to the applicable agreement for further details, at     Info: https://fpgasoftware.intel.com/eula.     Info: Processing started: Thu Mar 20 00:20:46 2025 Info: Command: quartus_map audio_system_audio_pll_0_audio_pll.qpf --simgen --ini=disable_check_quartus_compatibility_qsys_only=on --simgen_parameter=CBX_HDL_LANGUAGE=VERILOG Info (20034): Auto device selection is not supported for Cyclone V device family. The default device, 5CGXFC7C7F23C8, is set. Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance. Info (20032): Parallel compilation is enabled and will use up to 4 processors Info (12021): Found 1 design units, including 1 entities, in source file audio_system_audio_pll_0_audio_pll.v     Info (12023): Found entity 1: audio_system_audio_pll_0_audio_pll File: C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/audio_system_audio_pll_0_audio_pll.v Line: 2 Info (12127): Elaborating entity "audio_system_audio_pll_0_audio_pll" for the top level hierarchy Info (12128): Elaborating entity "altera_pll" for hierarchy "altera_pll:altera_pll_i" File: C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/audio_system_audio_pll_0_audio_pll.v Line: 85 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus Info (12130): Elaborated megafunction instantiation "altera_pll:altera_pll_i" File: C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/audio_system_audio_pll_0_audio_pll.v Line: 85 Info (12133): Instantiated megafunction "altera_pll:altera_pll_i" with the following parameter: File: C:/Users/btdat/AppData/Local/Temp/alt0166_3602596468493173490.dir/0015_audio_pll_gen/audio_system_audio_pll_0_audio_pll.v Line: 85     Info (12134): Parameter "fractional_vco_multiplier" = "false"     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"     Info (12134): Parameter "operation_mode" = "direct"     Info (12134): Parameter "number_of_clocks" = "1"     Info (12134): Parameter "output_clock_frequency0" = "12.288135 MHz"     Info (12134): Parameter "phase_shift0" = "0 ps"     Info (12134): Parameter "duty_cycle0" = "50"     Info (12134): Parameter "output_clock_frequency1" = "0 MHz"     Info (12134): Parameter "phase_shift1" = "0 ps"     Info (12134): Parameter "duty_cycle1" = "50"     Info (12134): Parameter "output_clock_frequency2" = "0 MHz"     Info (12134): Parameter "phase_shift2" = "0 ps"     Info (12134): Parameter "duty_cycle2" = "50"     Info (12134): Parameter "output_clock_frequency3" = "0 MHz"     Info (12134): Parameter "phase_shift3" = "0 ps"     Info (12134): Parameter "duty_cycle3" = "50"     Info (12134): Parameter "output_clock_frequency4" = "0 MHz"     Info (12134): Parameter "phase_shift4" = "0 ps"     Info (12134): Parameter "duty_cycle4" = "50"     Info (12134): Parameter "output_clock_frequency5" = "0 MHz"     Info (12134): Parameter "phase_shift5" = "0 ps"     Info (12134): Parameter "duty_cycle5" = "50"     Info (12134): Parameter "output_clock_frequency6" = "0 MHz"     Info (12134): Parameter "phase_shift6" = "0 ps"     Info (12134): Parameter "duty_cycle6" = "50"     Info (12134): Parameter "output_clock_frequency7" = "0 MHz"     Info (12134): Parameter "phase_shift7" = "0 ps"     Info (12134): Parameter "duty_cycle7" = "50"     Info (12134): Parameter "output_clock_frequency8" = "0 MHz"     Info (12134): Parameter "phase_shift8" = "0 ps"     Info (12134): Parameter "duty_cycle8" = "50"     Info (12134): Parameter "output_clock_frequency9" = "0 MHz"     Info (12134): Parameter "phase_shift9" = "0 ps"     Info (12134): Parameter "duty_cycle9" = "50"     Info (12134): Parameter "output_clock_frequency10" = "0 MHz"     Info (12134): Parameter "phase_shift10" = "0 ps"     Info (12134): Parameter "duty_cycle10" = "50"     Info (12134): Parameter "output_clock_frequency11" = "0 MHz"     Info (12134): Parameter "phase_shift11" = "0 ps"     Info (12134): Parameter "duty_cycle11" = "50"     Info (12134): Parameter "output_clock_frequency12" = "0 MHz"     Info (12134): Parameter "phase_shift12" = "0 ps"     Info (12134): Parameter "duty_cycle12" = "50"     Info (12134): Parameter "output_clock_frequency13" = "0 MHz"     Info (12134): Parameter "phase_shift13" = "0 ps"     Info (12134): Parameter "duty_cycle13" = "50"     Info (12134): Parameter "output_clock_frequency14" = "0 MHz"     Info (12134): Parameter "phase_shift14" = "0 ps"     Info (12134): Parameter "duty_cycle14" = "50"     Info (12134): Parameter "output_clock_frequency15" = "0 MHz"     Info (12134): Parameter "phase_shift15" = "0 ps"     Info (12134): Parameter "duty_cycle15" = "50"     Info (12134): Parameter "output_clock_frequency16" = "0 MHz"     Info (12134): Parameter "phase_shift16" = "0 ps"     Info (12134): Parameter "duty_cycle16" = "50"     Info (12134): Parameter "output_clock_frequency17" = "0 MHz"     Info (12134): Parameter "phase_shift17" = "0 ps"     Info (12134): Parameter "duty_cycle17" = "50"     Info (12134): Parameter "pll_type" = "General"     Info (12134): Parameter "pll_subtype" = "General" Info (281010): Generating sgate simulator netlist using Simgen SIMGEN_PROGRESS Start of Model generation -- 0% complete SIMGEN_PROGRESS Phase 1 : Internal Objects created -- 25% complete SIMGEN_PROGRESS Phase 2 : Connections between internal objects made -- 60% complete SIMGEN_PROGRESS Phase 3 : Netlist generated -- 100% complete Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning     Info: Peak virtual memory: 4784 megabytes     Info: Processing ended: Thu Mar 20 00:20:54 2025     Info: Elapsed time: 00:00:08     Info: Total CPU time (on all processors): 00:00:01 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize Info (23030): Evaluation of Tcl script run_simgen_cmd.tcl was successful Info: Quartus Prime Shell was successful. 0 errors, 0 warnings     Info: Peak virtual memory: 4668 megabytes     Info: Processing ended: Thu Mar 20 00:20:54 2025     Info: Elapsed time: 00:00:09     Info: Total CPU time (on all processors): 00:00:02 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Info: audio_pll: Simgen was successful
+Info: audio_pll: "audio_pll_0" instantiated altera_pll "audio_pll"
+Error: Generation stopped, 88 or more modules remaining
+Info: audio_system_tb: Done "audio_system_tb" with 44 modules, 42 files
+Error: qsys-generate failed with exit code 1: 155 Errors, 6 Warnings
+Error: There were errors creating the testbench system.
+Info: Finished: Create testbench Platform Designer system
