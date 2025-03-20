@@ -1,4 +1,4 @@
-# (C) 2001-2018 Intel Corporation. All rights reserved.
+# (C) 2001-2024 Intel Corporation. All rights reserved.
 # Your use of Intel Corporation's design tools, logic functions and other 
 # software and tools, and its AMPP partner logic functions, and any output 
 # files from any of the foregoing (including device programming or simulation 
@@ -36,13 +36,10 @@ set sync_entity "altera_avalon_st_clock_crosser:*|altera_std_synchronizer_nocut:
 set_max_delay -from [get_registers * ] -to [get_registers *${sync_entity}*|din_s1 ] 100
 set_min_delay -from [get_registers * ] -to [get_registers *${sync_entity}*|din_s1 ] -100
 
-if { [ is_project_open ] && [ string equal -nocase on [ get_global_assignment -name TIMEQUEST2 ] ] } {
-    set_net_delay -from [get_registers *${crosser_entity}*|in_data_buffer* ] -to [get_registers *${crosser_entity}*|out_data_buffer* ] -max -get_value_from_clock_period dst_clock_period -value_multiplier 0.8
-    set_net_delay -from [get_registers * ] -to [get_registers *${sync_entity}*|din_s1 ] -max -get_value_from_clock_period dst_clock_period -value_multiplier 0.8
-} else {
-    set_net_delay -from [get_registers *${crosser_entity}*|in_data_buffer* ] -to [get_registers *${crosser_entity}*|out_data_buffer* ] -max 2
-    set_net_delay -from [get_registers * ] -to [get_registers *${sync_entity}*|din_s1 ] -max 2
-}
+set_net_delay -from [get_registers *${crosser_entity}*|in_data_buffer* ] -to [get_registers *${crosser_entity}*|out_data_buffer* ] -max -get_value_from_clock_period dst_clock_period -value_multiplier 0.8
+set_net_delay -from [get_registers * ] -to [get_registers *${sync_entity}*|din_s1 ] -max -get_value_from_clock_period dst_clock_period -value_multiplier 0.8
+
+
 
 # -----------------------------------------------------------------------------
 # This procedure constrains the skew between the token and data bits, and should

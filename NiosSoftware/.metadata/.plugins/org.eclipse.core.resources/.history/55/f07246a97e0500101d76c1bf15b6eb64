@@ -1,0 +1,695 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/alt_irq.h>
+#include <sys/alt_alarm.h>
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
+#include "altera_avalon_timer_regs.h"
+#include "altera_up_avalon_audio.h"
+#include "altera_up_avalon_audio_and_video_config.h"
+
+// Shadow register values - WM8731 doesn't support register reads
+uint8_t codec_shadow_regs[16] = {0};
+
+// Audio buffer size (must be smaller than FIFO size)
+#define BUFFER_SIZE 64
+
+// Audio data size in ROM - adjust to match actual ROM size
+#define AUDIO_DATA_SIZE (240254 / 2)  // Size in 16-bit samples
+
+// Status LEDs
+#define LED_INIT        0x01
+#define LED_CONFIG_DONE 0x02
+#define LED_PLAYING     0x04
+#define LED_PAUSED      0x08
+#define LED_ERROR       0x80
+#define LED_VOL_CHANGE  0x10
+#define LED_MODE_CHANGE 0x20
+
+// Switch functions
+#define SW_PLAY_PAUSE   0x01
+#define SW_RESTART      0x02
+#define SW_LOOP         0x04
+#define SW_VOL_UP       0x08
+#define SW_VOL_DOWN     0x10
+#define SW_LINE_IN      0x20
+#define SW_MIC_IN       0x40
+#define SW_BYPASS       0x80
+
+// Button functions
+#define BTN_RESET       0x01
+#define BTN_MUTE        0x02
+
+// WM8731 Register Addresses
+#define WM8731_REG_LEFT_LINE_IN         0x00
+#define WM8731_REG_RIGHT_LINE_IN        0x01
+#define WM8731_REG_LEFT_HEADPHONE_OUT   0x02
+#define WM8731_REG_RIGHT_HEADPHONE_OUT  0x03
+#define WM8731_REG_ANALOG_PATH          0x04
+#define WM8731_REG_DIGITAL_PATH         0x05
+#define WM8731_REG_POWER_DOWN           0x06
+#define WM8731_REG_DIGITAL_INTERFACE    0x07
+#define WM8731_REG_SAMPLING             0x08
+#define WM8731_REG_ACTIVE               0x09
+#define WM8731_REG_RESET                0x0F
+
+// WM8731 Register Bit Masks
+// Line Input Volume (0-31)
+#define WM8731_LINVOL_MASK       0x1F
+#define WM8731_LINMUTE_MASK      0x80
+#define WM8731_LRINBOTH_MASK     0x100
+
+// Headphone Output Volume (0-127)
+#define WM8731_LHPVOL_MASK       0x7F
+#define WM8731_LZCEN_MASK        0x80
+#define WM8731_LRHPBOTH_MASK     0x100
+
+// Analog Audio Path Control
+#define WM8731_MICBOOST_MASK     0x01
+#define WM8731_MUTEMIC_MASK      0x02
+#define WM8731_INSEL_MASK        0x04
+#define WM8731_BYPASS_MASK       0x08
+#define WM8731_DACSEL_MASK       0x10
+#define WM8731_SIDETONE_MASK     0x20
+#define WM8731_SIDEATT_MASK      0xC0
+
+// Digital Audio Path Control
+#define WM8731_ADCHPD_MASK       0x01
+#define WM8731_DEEMP_MASK        0x06
+#define WM8731_DACMU_MASK        0x08
+#define WM8731_HPOR_MASK         0x10
+
+// Power Down Control
+#define WM8731_LINEINPD_MASK     0x01
+#define WM8731_MICPD_MASK        0x02
+#define WM8731_ADCPD_MASK        0x04
+#define WM8731_DACPD_MASK        0x08
+#define WM8731_OUTPD_MASK        0x10
+#define WM8731_OSCPD_MASK        0x20
+#define WM8731_CLKOUTPD_MASK     0x40
+#define WM8731_POWEROFF_MASK     0x80
+
+// Digital Audio Interface Format
+#define WM8731_FORMAT_MASK       0x03
+#define WM8731_IWL_MASK          0x0C
+#define WM8731_LRP_MASK          0x10
+#define WM8731_LRSWAP_MASK       0x20
+#define WM8731_MS_MASK           0x40
+#define WM8731_BCLKINV_MASK      0x80
+
+// Format values
+#define WM8731_FORMAT_MSB_RIGHT  0x00
+#define WM8731_FORMAT_MSB_LEFT   0x01
+#define WM8731_FORMAT_I2S        0x02
+#define WM8731_FORMAT_DSP        0x03
+
+// Bit lengths
+#define WM8731_IWL_16BIT         0x00
+#define WM8731_IWL_20BIT         0x04
+#define WM8731_IWL_24BIT         0x08
+#define WM8731_IWL_32BIT         0x0C
+
+// Sampling Control
+#define WM8731_USB_NORMAL_MASK   0x01
+#define WM8731_BOSR_MASK         0x02
+#define WM8731_SR_MASK           0x3C
+#define WM8731_CLKIDIV2_MASK     0x40
+#define WM8731_CLKODIV2_MASK     0x80
+
+// Volume settings
+#define DEFAULT_HEADPHONE_VOLUME 0x50  // Mid volume
+#define DEFAULT_LINE_VOLUME      0x17  // Default line volume
+#define MIN_VOLUME               0x00
+#define MAX_HEADPHONE_VOLUME     0x7F
+#define MAX_LINE_VOLUME          0x1F
+#define VOLUME_STEP              0x04  // Step size for volume changes
+
+// Global variables
+alt_up_audio_dev *audio_dev = NULL;
+alt_up_av_config_dev *av_config = NULL;
+
+// Audio state (volatile because modified in ISR)
+volatile int audio_playing = 0;
+volatile int audio_position = 0;
+volatile int audio_loop = 0;
+volatile int buffer_underrun = 0;
+volatile unsigned int last_switch_state = 0;
+volatile unsigned int last_button_state = 0;
+
+// Audio configuration state
+volatile int headphone_volume = DEFAULT_HEADPHONE_VOLUME;
+volatile int line_volume = DEFAULT_LINE_VOLUME;
+volatile int muted = 0;
+volatile int input_mode = 0;  // 0 = Line In, 1 = Mic
+
+// Function prototypes
+int initialize_audio(void);
+void handle_audio_interrupt(void* context);
+void update_leds(int status);
+alt_u32 timer_isr(void* context);
+void process_audio_buffer(void);
+int configure_wm8731_register(int reg_addr, int reg_data);
+int set_headphone_volume(int volume, int update_both);
+int set_line_in_volume(int volume, int update_both);
+void toggle_mute(void);
+void switch_input_mode(int mode);
+void power_down_codec(void);
+void power_up_codec(void);
+void enable_dac_output(void);
+void enable_adc_input(void);
+
+// Main function
+int main(void) {
+    printf("Audio Playback Application Starting\n");
+
+    // Initialize status
+    update_leds(LED_INIT);
+
+    // Initialize audio codec
+    if (initialize_audio() != 0) {
+        printf("Audio initialization failed\n");
+        update_leds(LED_ERROR);
+        return -1;
+    }
+
+    update_leds(LED_CONFIG_DONE);
+    printf("Audio configuration successful\n");
+
+    // Setup timer for periodic processing (100ms)
+    alt_alarm timer;
+    alt_alarm_start(&timer, alt_ticks_per_second()/10, timer_isr, NULL);
+
+    // Fill buffers initially to prevent underrun
+    process_audio_buffer();
+    audio_playing = 1;
+    update_leds(LED_PLAYING);
+    printf("Audio playback started\n");
+
+    // Main application loop
+    while (1) {
+        // Read switch status
+        unsigned int switches = IORD_ALTERA_AVALON_PIO_DATA(SWITCH_PIO_BASE);
+        unsigned int buttons = IORD_ALTERA_AVALON_PIO_DATA(KEY_PIO_BASE);
+
+        // Invert button values since they are active-low
+        buttons = ~buttons & 0xF;
+
+        // Process switches if changed
+        if (switches != last_switch_state) {
+            int status_led = (audio_playing ? LED_PLAYING : LED_PAUSED);
+
+            // Play/Pause control (SW0)
+            if ((switches & SW_PLAY_PAUSE) != (last_switch_state & SW_PLAY_PAUSE)) {
+                if (switches & SW_PLAY_PAUSE) {
+                    audio_playing = !audio_playing;
+                    if (audio_playing) {
+                        printf("Audio playback started\n");
+                        status_led = LED_PLAYING;
+                    } else {
+                        printf("Audio playback paused\n");
+                        status_led = LED_PAUSED;
+                    }
+                }
+            }
+
+            // Restart control (SW1)
+            if ((switches & SW_RESTART) != (last_switch_state & SW_RESTART)) {
+                if (switches & SW_RESTART) {
+                    audio_position = 0;
+                    printf("Audio playback restarted\n");
+                }
+            }
+
+            // Loop control (SW2)
+            if ((switches & SW_LOOP) != (last_switch_state & SW_LOOP)) {
+                audio_loop = (switches & SW_LOOP) ? 1 : 0;
+                printf("Audio loop %s\n", audio_loop ? "enabled" : "disabled");
+            }
+
+            // Volume Up (SW3)
+            if ((switches & SW_VOL_UP) != (last_switch_state & SW_VOL_UP)) {
+                if (switches & SW_VOL_UP) {
+                    if (headphone_volume < MAX_HEADPHONE_VOLUME) {
+                        headphone_volume += VOLUME_STEP;
+                        if (headphone_volume > MAX_HEADPHONE_VOLUME) {
+                            headphone_volume = MAX_HEADPHONE_VOLUME;
+                        }
+                        set_headphone_volume(headphone_volume, 1);
+                        printf("Volume increased to %d%%\n", (headphone_volume * 100) / MAX_HEADPHONE_VOLUME);
+                        status_led |= LED_VOL_CHANGE;
+                    }
+                }
+            }
+
+            // Volume Down (SW4)
+            if ((switches & SW_VOL_DOWN) != (last_switch_state & SW_VOL_DOWN)) {
+                if (switches & SW_VOL_DOWN) {
+                    if (headphone_volume > MIN_VOLUME) {
+                        headphone_volume -= VOLUME_STEP;
+                        if (headphone_volume < MIN_VOLUME) {
+                            headphone_volume = MIN_VOLUME;
+                        }
+                        set_headphone_volume(headphone_volume, 1);
+                        printf("Volume decreased to %d%%\n", (headphone_volume * 100) / MAX_HEADPHONE_VOLUME);
+                        status_led |= LED_VOL_CHANGE;
+                    }
+                }
+            }
+
+            // Line Input Mode (SW5)
+            if ((switches & SW_LINE_IN) != (last_switch_state & SW_LINE_IN)) {
+                if (switches & SW_LINE_IN) {
+                    input_mode = 0;
+                    switch_input_mode(input_mode);
+                    printf("Switched to Line Input mode\n");
+                    status_led |= LED_MODE_CHANGE;
+                }
+            }
+
+            // Mic Input Mode (SW6)
+            if ((switches & SW_MIC_IN) != (last_switch_state & SW_MIC_IN)) {
+                if (switches & SW_MIC_IN) {
+                    input_mode = 1;
+                    switch_input_mode(input_mode);
+                    printf("Switched to Microphone Input mode\n");
+                    status_led |= LED_MODE_CHANGE;
+                }
+            }
+
+            // Bypass Mode (SW7)
+            if ((switches & SW_BYPASS) != (last_switch_state & SW_BYPASS)) {
+                int bypass_enabled = (switches & SW_BYPASS) ? 1 : 0;
+                int reg_value = 0;
+
+                // Read current analog path register from shadow copy
+                reg_value = read_wm8731_register(WM8731_REG_ANALOG_PATH);
+
+                // Set bypass bit
+                if (bypass_enabled) {
+                    reg_value |= WM8731_BYPASS_MASK;
+                    printf("Bypass mode enabled\n");
+                } else {
+                    reg_value &= ~WM8731_BYPASS_MASK;
+                    printf("Bypass mode disabled\n");
+                }
+
+                configure_wm8731_register(WM8731_REG_ANALOG_PATH, reg_value);
+                status_led |= LED_MODE_CHANGE;
+            }
+
+            update_leds(status_led);
+            last_switch_state = switches;
+        }
+
+        // Process buttons if changed
+        if (buttons != last_button_state) {
+            // Reset Codec (KEY0)
+            if ((buttons & BTN_RESET) && !(last_button_state & BTN_RESET)) {
+                printf("Resetting audio codec...\n");
+                configure_wm8731_register(WM8731_REG_RESET, 0x00);
+                usleep(10000);  // Wait for reset to complete
+                initialize_audio();
+                update_leds(LED_CONFIG_DONE);
+                printf("Audio codec reset and reconfigured\n");
+            }
+
+            // Mute/Unmute (KEY1)
+            if ((buttons & BTN_MUTE) && !(last_button_state & BTN_MUTE)) {
+                toggle_mute();
+                printf("Audio %s\n", muted ? "muted" : "unmuted");
+            }
+
+            last_button_state = buttons;
+        }
+
+        // Check for buffer underrun
+        if (buffer_underrun) {
+            printf("Buffer underrun detected, refilling...\n");
+            process_audio_buffer();
+            buffer_underrun = 0;
+        }
+
+        // Sleep to reduce CPU usage
+        usleep(10000);
+    }
+
+    return 0;
+}
+
+// Configure WM8731 register via I2C and update shadow register
+int configure_wm8731_register(int reg_addr, int reg_data) {
+    // Store value in shadow register for later "reads"
+    if (reg_addr < 16) {
+        codec_shadow_regs[reg_addr] = reg_data & 0xFF;
+    }
+
+    // WM8731 uses 7-bit register addresses and 9-bit data
+    // The 7-bit address is in the higher byte, 9-bit data is in lower byte
+    // The lower 7 bits of reg_data will be written to the specified register
+    return alt_up_av_config_write_audio_cfg_register(av_config, reg_addr, reg_data);
+}
+
+// Read from shadow register (since WM8731 doesn't support read operations)
+int read_wm8731_register(int reg_addr) {
+    if (reg_addr < 16) {
+        return codec_shadow_regs[reg_addr];
+    }
+    return 0;
+}
+
+// Set headphone output volume
+int set_headphone_volume(int volume, int update_both) {
+    // Ensure volume is within valid range
+    if (volume < MIN_VOLUME || volume > MAX_HEADPHONE_VOLUME) {
+        return -1;
+    }
+
+    // Configure volume with zero cross detection enabled
+    int reg_data = volume;
+
+    // Enable zero-crossing detection to prevent pops
+    reg_data |= WM8731_LZCEN_MASK;
+
+    // Set simultaneous update flag if requested
+    if (update_both) {
+        reg_data |= WM8731_LRHPBOTH_MASK;
+    }
+
+    // Update left and right channels
+    int result = configure_wm8731_register(WM8731_REG_LEFT_HEADPHONE_OUT, reg_data);
+
+    // If not using simultaneous update, update right channel as well
+    if (!update_both) {
+        result &= configure_wm8731_register(WM8731_REG_RIGHT_HEADPHONE_OUT, reg_data);
+    }
+
+    return result;
+}
+
+// Set line input volume
+int set_line_in_volume(int volume, int update_both) {
+    // Ensure volume is within valid range
+    if (volume < MIN_VOLUME || volume > MAX_LINE_VOLUME) {
+        return -1;
+    }
+
+    // Configure volume (0x17 = 0dB, 0x00 = -34.5dB)
+    int reg_data = volume;
+
+    // Unmute input
+    if (!muted) {
+        reg_data &= ~WM8731_LINMUTE_MASK;
+    } else {
+        reg_data |= WM8731_LINMUTE_MASK;
+    }
+
+    // Set simultaneous update flag if requested
+    if (update_both) {
+        reg_data |= WM8731_LRINBOTH_MASK;
+    }
+
+    // Update left and right channels
+    int result = configure_wm8731_register(WM8731_REG_LEFT_LINE_IN, reg_data);
+
+    // If not using simultaneous update, update right channel as well
+    if (!update_both) {
+        result &= configure_wm8731_register(WM8731_REG_RIGHT_LINE_IN, reg_data);
+    }
+
+    return result;
+}
+
+// Toggle mute state
+void toggle_mute(void) {
+    muted = !muted;
+
+    // Update DAC mute - read from shadow register
+    int digital_path = read_wm8731_register(WM8731_REG_DIGITAL_PATH);
+
+    if (muted) {
+        digital_path |= WM8731_DACMU_MASK;
+    } else {
+        digital_path &= ~WM8731_DACMU_MASK;
+    }
+
+    configure_wm8731_register(WM8731_REG_DIGITAL_PATH, digital_path);
+
+    // Update line-in mute status as well
+    set_line_in_volume(line_volume, 1);
+}
+
+// Switch between line-in and mic input
+void switch_input_mode(int mode) {
+    // Read from shadow register
+    int analog_path = read_wm8731_register(WM8731_REG_ANALOG_PATH);
+
+    if (mode == 0) {
+        // Line In mode
+        analog_path &= ~WM8731_INSEL_MASK;  // Clear INSEL bit
+        analog_path &= ~WM8731_MICBOOST_MASK;  // Disable mic boost
+    } else {
+        // Mic mode
+        analog_path |= WM8731_INSEL_MASK;  // Set INSEL bit
+        analog_path |= WM8731_MICBOOST_MASK;  // Enable mic boost
+    }
+
+    configure_wm8731_register(WM8731_REG_ANALOG_PATH, analog_path);
+}
+
+// Power down the codec
+void power_down_codec(void) {
+    // Power down everything except oscillator and clock output
+    int power_reg = WM8731_LINEINPD_MASK | WM8731_MICPD_MASK |
+                    WM8731_ADCPD_MASK | WM8731_DACPD_MASK |
+                    WM8731_OUTPD_MASK;
+
+    configure_wm8731_register(WM8731_REG_POWER_DOWN, power_reg);
+}
+
+// Power up the codec
+void power_up_codec(void) {
+    // Power up everything
+    configure_wm8731_register(WM8731_REG_POWER_DOWN, 0x00);
+}
+
+// Enable DAC output
+void enable_dac_output(void) {
+    // Read from shadow register
+    int analog_path = read_wm8731_register(WM8731_REG_ANALOG_PATH);
+
+    // Set DAC select bit
+    analog_path |= WM8731_DACSEL_MASK;
+
+    configure_wm8731_register(WM8731_REG_ANALOG_PATH, analog_path);
+}
+
+// Enable ADC input
+void enable_adc_input(void) {
+    // Read from shadow register
+    int power_reg = read_wm8731_register(WM8731_REG_POWER_DOWN);
+
+    // Turn on ADC
+    power_reg &= ~WM8731_ADCPD_MASK;
+
+    configure_wm8731_register(WM8731_REG_POWER_DOWN, power_reg);
+}
+
+// Initialize audio codec via I2C
+int initialize_audio(void) {
+    // Open audio device
+    audio_dev = alt_up_audio_open_dev(AUDIO_NAME);
+    if (audio_dev == NULL) {
+        printf("Error: could not open audio device\n");
+        return -1;
+    }
+
+    // Open audio config device
+    av_config = alt_up_av_config_open_dev(AUDIO_CONFIG_NAME);
+    if (av_config == NULL) {
+        printf("Error: could not open audio config device\n");
+        return -1;
+    }
+
+    // Wait for audio config to complete
+    int timeout = 10000;  // Prevent infinite loop
+    while (!alt_up_av_config_read_ready(av_config)) {
+        if (--timeout <= 0) {
+            printf("Error: Audio config device not ready\n");
+            return -1;
+        }
+        usleep(1000);
+    }
+
+    // Reset codec first
+    if (configure_wm8731_register(WM8731_REG_RESET, 0x00) != 0) {
+        printf("Error: Failed to reset audio codec\n");
+        return -1;
+    }
+
+    // Wait for reset to complete
+    usleep(10000);
+
+    // Clear audio FIFOs
+    alt_up_audio_reset_audio_core(audio_dev);
+
+    // Configure WM8731 registers
+    int config_success = 1;
+
+    // Initialize shadow registers to defaults
+    memset(codec_shadow_regs, 0, sizeof(codec_shadow_regs));
+
+    // 1. Set line input volume (0x17 = 0dB)
+    config_success &= configure_wm8731_register(WM8731_REG_LEFT_LINE_IN,
+                                              0x17 | WM8731_LRINBOTH_MASK);
+
+    // 2. Set headphone output volume (0x50 = mid volume with zero-cross enable)
+    config_success &= configure_wm8731_register(WM8731_REG_LEFT_HEADPHONE_OUT,
+                                              DEFAULT_HEADPHONE_VOLUME | WM8731_LZCEN_MASK | WM8731_LRHPBOTH_MASK);
+
+    // 3. Configure analog audio path
+    // - DAC selected for output
+    // - Line input selected (not mic)
+    // - Bypass disabled
+    config_success &= configure_wm8731_register(WM8731_REG_ANALOG_PATH,
+                                              WM8731_DACSEL_MASK);
+
+    // 4. Configure digital audio path
+    // - High-pass filter enabled
+    // - De-emphasis disabled
+    // - DAC not muted
+    config_success &= configure_wm8731_register(WM8731_REG_DIGITAL_PATH, 0x00);
+
+    // 5. Configure power management
+    // - Turn on everything
+    config_success &= configure_wm8731_register(WM8731_REG_POWER_DOWN, 0x00);
+
+    // 6. Configure digital audio interface format
+    // - I2S format
+    // - 16-bit word length
+    // - DACLRC polarity normal
+    // - Slave mode (FPGA is master)
+    config_success &= configure_wm8731_register(WM8731_REG_DIGITAL_INTERFACE,
+                                              WM8731_FORMAT_I2S | WM8731_IWL_16BIT);
+
+    // 7. Configure sampling control
+    // - Normal mode (256fs)
+    // - 48kHz sampling rate
+    // - MCLK is core clock
+    config_success &= configure_wm8731_register(WM8731_REG_SAMPLING, 0x00);
+
+    // 8. Activate the codec
+    config_success &= configure_wm8731_register(WM8731_REG_ACTIVE, 0x01);
+
+    if (!config_success) {
+        printf("Error: Failed to configure audio codec\n");
+        return -1;
+    }
+
+    // Enable audio write interrupt
+    alt_up_audio_enable_write_interrupt(audio_dev);
+
+    // Store initial volume settings
+    headphone_volume = DEFAULT_HEADPHONE_VOLUME;
+    line_volume = DEFAULT_LINE_VOLUME;
+    muted = 0;
+
+    return 0;
+}
+
+// Process and fill audio buffer
+void process_audio_buffer(void) {
+    // Only process if we're playing audio
+    if (!audio_playing) return;
+
+    // Check available space in output FIFO
+    unsigned int space_left = alt_up_audio_write_fifo_space(audio_dev, ALT_UP_AUDIO_LEFT);
+    unsigned int space_right = alt_up_audio_write_fifo_space(audio_dev, ALT_UP_AUDIO_RIGHT);
+    unsigned int space = (space_left < space_right) ? space_left : space_right;
+
+    // Don't process if not enough space
+    if (space < BUFFER_SIZE) return;
+
+    // Buffers for audio data
+    unsigned int left_buffer[BUFFER_SIZE];
+    unsigned int right_buffer[BUFFER_SIZE];
+
+    // Process only if we haven't reached the end of audio data
+    if (audio_position < AUDIO_DATA_SIZE || audio_loop) {
+        // Read audio data from ROM
+        int16_t* audio_data = (int16_t*)AUDIO_ROM_BASE;
+
+        for (int i = 0; i < BUFFER_SIZE; i++) {
+            if (audio_position >= AUDIO_DATA_SIZE) {
+                if (audio_loop) {
+                    // Loop back to beginning
+                    printf("Looping audio playback\n");
+                    audio_position = 0;
+                } else {
+                    // Stop playback at end
+                    audio_playing = 0;
+                    update_leds(LED_PAUSED);
+                    printf("End of audio reached\n");
+                    return;
+                }
+            }
+
+            // Bounds check
+            if (audio_position < 0 || audio_position >= AUDIO_DATA_SIZE) {
+                printf("Error: Audio position out of bounds: %d\n", audio_position);
+                audio_position = 0;
+            }
+
+            // Read audio sample from ROM (memory-mapped)
+            int16_t sample = audio_data[audio_position];
+
+            // Convert to unsigned int for audio FIFO
+            // Same sample for both left and right channels (mono output)
+            left_buffer[i] = (unsigned int)sample;
+            right_buffer[i] = (unsigned int)sample;
+
+            audio_position++;
+        }
+
+        // Write audio data to codec
+        int written_left = alt_up_audio_write_fifo(audio_dev, left_buffer, BUFFER_SIZE, ALT_UP_AUDIO_LEFT);
+        int written_right = alt_up_audio_write_fifo(audio_dev, right_buffer, BUFFER_SIZE, ALT_UP_AUDIO_RIGHT);
+
+        // Check if write was successful
+        if (written_left != BUFFER_SIZE || written_right != BUFFER_SIZE) {
+            printf("Warning: Not all audio samples written (%d, %d)\n", written_left, written_right);
+        }
+    }
+}
+
+// Audio interrupt handler
+void handle_audio_interrupt(void* context) {
+    // Check which type of interrupt occurred
+    int write_pending = alt_up_audio_write_interrupt_pending(audio_dev);
+
+    // If write interrupt (FIFO has space), fill the buffer
+    if (write_pending) {
+        // Clear the interrupt by handling it
+        alt_up_audio_disable_write_interrupt(audio_dev);
+
+        // Signal buffer underrun
+        buffer_underrun = 1;
+
+        // Re-enable interrupt after handling
+        alt_up_audio_enable_write_interrupt(audio_dev);
+    }
+}
+
+// Timer ISR - called periodically to ensure audio buffer is filled
+alt_u32 timer_isr(void* context) {
+    process_audio_buffer();
+
+    // Return time until next timer interrupt (continue with same period)
+    return alt_ticks_per_second()/10;
+}
+
+// Update LED status
+void update_leds(int status) {
+    IOWR_ALTERA_AVALON_PIO_DATA(LED_PIO_BASE, status);
+}

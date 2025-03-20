@@ -1,0 +1,282 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/alt_irq.h>
+#include <sys/alt_alarm.h>
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
+#include "altera_avalon_timer_regs.h"
+#include "altera_up_avalon_audio.h"
+#include "altera_up_avalon_audio_and_video_config.h"
+
+// Audio buffer size (must be smaller than FIFO size)
+#define BUFFER_SIZE 64
+
+// Audio data size in ROM - adjust to match actual ROM size
+#define AUDIO_DATA_SIZE (240254 / 2)  // Size in 16-bit samples
+
+// Status LEDs
+#define LED_INIT        0x01
+#define LED_CONFIG_DONE 0x02
+#define LED_PLAYING     0x04
+#define LED_PAUSED      0x08
+#define LED_ERROR       0x80
+
+// Switch functions
+#define SW_PLAY_PAUSE   0x01
+#define SW_RESTART      0x02
+#define SW_LOOP         0x04
+
+// Global variables
+alt_up_audio_dev *audio_dev = NULL;
+alt_up_av_config_dev *av_config = NULL;
+
+// Audio state (volatile because modified in ISR)
+volatile int audio_playing = 0;
+volatile int audio_position = 0;
+volatile int audio_loop = 0;
+volatile int buffer_underrun = 0;
+volatile unsigned int last_switch_state = 0;
+
+// Function prototypes
+int initialize_audio(void);
+void handle_audio_interrupt(void* context);
+void update_leds(int status);
+alt_u32 timer_isr(void* context);
+void process_audio_buffer(void);
+
+// Main function
+int main(void) {
+    printf("Audio Playback Application Starting\n");
+
+    // Initialize status
+    update_leds(LED_INIT);
+
+    // Initialize audio codec
+    if (initialize_audio() != 0) {
+        printf("Audio initialization failed\n");
+        update_leds(LED_ERROR);
+        return -1;
+    }
+
+    // Setup timer for periodic processing (100ms)
+    alt_alarm timer;
+    alt_alarm_start(&timer, alt_ticks_per_second()/10, timer_isr, NULL);
+
+    audio_playing = 1;
+    // Fill buffers initially to prevent underrun
+    process_audio_buffer();
+
+    printf("Audio playback started\n");
+    // Main application loop
+    while (1) {
+        // Read switch status
+        unsigned int switches = IORD_ALTERA_AVALON_PIO_DATA(SWITCH_PIO_BASE);
+
+		update_leds(LED_PLAYING);
+                            //printf("Audio playback started\n");
+
+        // Only process if switches changed (edge detection)
+        /*if (switches != last_switch_state) {
+            last_switch_state = switches;
+
+            // Play/Pause control (SW0)
+            if (switches & SW_PLAY_PAUSE) {
+                if (!audio_playing) {
+                    audio_playing = 1;
+                    update_leds(LED_PLAYING);
+                    printf("Audio playback started\n");
+                }
+            } else {
+                if (audio_playing) {
+                    audio_playing = 0;
+                    update_leds(LED_PAUSED);
+                    printf("Audio playback paused\n");
+                }
+            }
+
+            // Restart control (SW1)
+            if (switches & SW_RESTART) {
+                audio_position = 0;
+                printf("Audio playback restarted\n");
+            }
+
+            // Loop control (SW2)
+            audio_loop = (switches & SW_LOOP) ? 1 : 0;
+            printf("Audio loop %s\n", audio_loop ? "enabled" : "disabled");
+        }*/
+
+        // Check for buffer underrun
+        if (buffer_underrun) {
+            printf("Buffer underrun detected, refilling...\n");
+            process_audio_buffer();
+            buffer_underrun = 0;
+        }
+
+        // Sleep to reduce CPU usage
+        usleep(100);
+    }
+
+    return 0;
+}
+
+// Initialize audio codec via I2C
+int initialize_audio(void) {
+    // Open audio device
+    audio_dev = alt_up_audio_open_dev(AUDIO_NAME);
+    if (audio_dev == NULL) {
+        printf("Error: could not open audio device\n");
+        return -1;
+    }
+
+    // Open audio config device
+    av_config = alt_up_av_config_open_dev(AUDIO_CONFIG_NAME);
+    if (av_config == NULL) {
+        printf("Error: could not open audio config device\n");
+        return -1;
+    }
+
+    // Wait for audio config to complete
+    int timeout = 10000;  // Prevent infinite loop
+    while (!alt_up_av_config_read_ready(av_config)) {
+        if (--timeout <= 0) {
+            printf("Error: Audio config device not ready\n");
+            return -1;
+        }
+        usleep(1000);
+    }
+
+    // Reset the audio core and codec
+    alt_up_audio_reset_audio_core(audio_dev);
+    if (alt_up_av_config_reset(av_config) != 0) {
+        printf("Error: Failed to reset audio config\n");
+        return -1;
+    }
+
+    // WM8731 Codec Configuration for 48kHz Audio
+    // See WM8731 datasheet for register details
+    int config_success = 1;
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x0, 0x17) == 0);  // Reset codec
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x1, 0x17) == 0);  // Left line in: 0dB
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x2, 0x17) == 0);  // Right line in: 0dB
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x3, 0x79) == 0);  // Left headphone: 0dB
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x4, 0x79) == 0);  // Right headphone: 0dB
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x5, 0x12) == 0);  // Analog audio path
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x6, 0x00) == 0);  // Digital audio path
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x7, 0x42) == 0);  // Digital audio interface
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x8, 0x00) == 0);  // Sampling control (48kHz)
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, 0x9, 0x01) == 0);  // Active control
+
+    if (!config_success) {
+        printf("Error: Failed to configure audio codec\n");
+        return -1;
+    }
+
+    // Register audio interrupt handler
+    alt_up_audio_enable_write_interrupt(audio_dev);
+    if (alt_irq_register(AUDIO_IRQ, NULL, handle_audio_interrupt) != 0) {
+        printf("Error: Failed to register audio interrupt\n");
+        return -1;
+    }
+
+    printf("Audio codec initialized successfully\n");
+    update_leds(LED_CONFIG_DONE);
+    return 0;
+}
+
+// Process and fill audio buffer
+void process_audio_buffer(void) {
+    // Only process if we're playing audio
+    if (!audio_playing) return;
+
+    // Check available space in output FIFO
+    unsigned int space_left = alt_up_audio_write_fifo_space(audio_dev, ALT_UP_AUDIO_LEFT);
+    unsigned int space_right = alt_up_audio_write_fifo_space(audio_dev, ALT_UP_AUDIO_RIGHT);
+    unsigned int space = (space_left < space_right) ? space_left : space_right;
+
+    // Don't process if not enough space
+    if (space < BUFFER_SIZE) return;
+
+    // Buffers for audio data
+    unsigned int left_buffer[BUFFER_SIZE];
+    unsigned int right_buffer[BUFFER_SIZE];
+
+    // Process only if we haven't reached the end of audio data
+    if (audio_position < AUDIO_DATA_SIZE || audio_loop) {
+        // Read audio data from ROM
+        int16_t* audio_data = (int16_t*)AUDIO_ROM_BASE;
+
+        for (int i = 0; i < BUFFER_SIZE; i++) {
+            if (audio_position >= AUDIO_DATA_SIZE) {
+                if (audio_loop) {
+                    // Loop back to beginning
+                    printf("Looping audio playback\n");
+                    audio_position = 0;
+                } else {
+                    // Stop playback at end
+                    audio_playing = 0;
+                    update_leds(LED_PAUSED);
+                    printf("End of audio reached\n");
+                    return;
+                }
+            }
+
+            // Bounds check
+            if (audio_position < 0 || audio_position >= AUDIO_DATA_SIZE) {
+                printf("Error: Audio position out of bounds: %d\n", audio_position);
+                audio_position = 0;
+            }
+
+            // Read audio sample from ROM (memory-mapped)
+            int16_t sample = audio_data[audio_position];
+
+            // Convert to unsigned int for audio FIFO
+            // Same sample for both left and right channels (mono output)
+            left_buffer[i] = (unsigned int)sample;
+            right_buffer[i] = (unsigned int)sample;
+
+            audio_position++;
+        }
+
+        // Write audio data to codec
+        int written_left = alt_up_audio_write_fifo(audio_dev, left_buffer, BUFFER_SIZE, ALT_UP_AUDIO_LEFT);
+        int written_right = alt_up_audio_write_fifo(audio_dev, right_buffer, BUFFER_SIZE, ALT_UP_AUDIO_RIGHT);
+
+        // Check if write was successful
+        if (written_left != BUFFER_SIZE || written_right != BUFFER_SIZE) {
+            printf("Warning: Not all audio samples written (%d, %d)\n", written_left, written_right);
+        }
+    }
+}
+
+// Audio interrupt handler
+void handle_audio_interrupt(void* context) {
+    // Check which type of interrupt occurred
+    int write_pending = alt_up_audio_write_interrupt_pending(audio_dev);
+
+    // If write interrupt (FIFO has space), fill the buffer
+    if (write_pending) {
+        // Clear the interrupt by handling it
+        alt_up_audio_disable_write_interrupt(audio_dev);
+
+        // Signal buffer underrun
+        buffer_underrun = 1;
+
+        // Re-enable interrupt after handling
+        alt_up_audio_enable_write_interrupt(audio_dev);
+    }
+}
+
+// Timer ISR - called periodically to ensure audio buffer is filled
+alt_u32 timer_isr(void* context) {
+    process_audio_buffer();
+
+    // Return time until next timer interrupt (continue with same period)
+    return alt_ticks_per_second()/10;
+}
+
+// Update LED status
+void update_leds(int status) {
+    IOWR_ALTERA_AVALON_PIO_DATA(LED_PIO_BASE, status);
+}

@@ -1,0 +1,1435 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                              obj/default/hello_world.o (__divsi3)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              obj/default/hello_world.o (__mulsi3)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+                              obj/default/hello_world.o (printf)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                              obj/default/hello_world.o (puts)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o) (strlen)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o) (_impure_ptr)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o) (___vfprintf_internal_r)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o) (__sfvwrite_small_dev)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o) (_write_r)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o) (errno)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              obj/default/hello_world.o (alt_alarm_start)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o (alt_load)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o (alt_main)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+                              obj/default/hello_world.o (_alt_tick_rate)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/hello_world.o (usleep)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o) (write)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+                              obj/default/hello_world.o (alt_up_audio_open_dev)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+                              obj/default/hello_world.o (alt_up_av_config_open_dev)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o) (close)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o) (alt_errno)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o) (alt_find_dev)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o) (alt_irq_register)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o) (alt_irq_active)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o) (alt_irq_entry)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o) (alt_irq)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o) (exit)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+                              d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o) (__register_exitproc)
+d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o) (__call_exitprocs)
+d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+                              d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o) (_exit)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+audio_rom        0x00000000         0x0003aa7e
+reset            0x000c0000         0x00000020
+onchip_memory2_0 0x000c0020         0x00007fdf
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world.o
+LOAD d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a
+START GROUP
+LOAD d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a
+LOAD d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a
+LOAD d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a
+                0x00000000                        __alt_mem_audio_rom = 0x0
+                0x000c0000                        __alt_mem_onchip_memory2_0 = 0xc0000
+
+.entry          0x000c0000       0x20
+ *(.entry)
+ .entry         0x000c0000       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+                0x000c0000                __reset
+
+.exceptions     0x000c0020      0x208
+                0x000c0020                        PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x000c0020                        . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x000c0020        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x000c0020                alt_irq_entry
+ .exceptions.entry.label
+                0x000c0020        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x000c0020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x000c0020       0x54 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x000c0074       0x10 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x000c0084        0x4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x000c0088        0x4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000c008c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000c008c        0x8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x000c0094       0x14 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x000c00a8        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x000c00a8        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x000c00a8       0x54 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x000c00fc       0xcc d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x000c00fc                alt_irq_handler
+ .exceptions    0x000c01c8       0x60 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000c01c8                alt_instruction_exception_entry
+                0x000c0228                        PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x000c0020                        PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x000c0228     0x3c98
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000c0228       0x3c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+                0x000c0228                _start
+ .text          0x000c0264      0x9f8 obj/default/hello_world.o
+                0x000c0264                main
+                0x000c0608                set_headphone_volume
+                0x000c068c                toggle_mute
+                0x000c06f4                initialize_audio
+                0x000c0998                process_audio_buffer
+                0x000c0b8c                handle_audio_interrupt
+                0x000c0bf0                timer_isr
+                0x000c0c2c                update_leds
+ .text          0x000c0c5c      0x1b4 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                0x000c0c5c                __divsi3
+                0x000c0cdc                __modsi3
+                0x000c0d50                __udivsi3
+                0x000c0db4                __umodsi3
+ .text          0x000c0e10       0x28 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x000c0e10                __mulsi3
+ .text          0x000c0e38        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .text._printf_r
+                0x000c0e38       0x3c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+                0x000c0e38                _printf_r
+ .text.printf   0x000c0e74       0x48 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+                0x000c0e74                printf
+ .text          0x000c0ebc        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .text._puts_r  0x000c0ebc       0x80 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                0x000c0ebc                _puts_r
+ .text.puts     0x000c0f3c       0x10 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                0x000c0f3c                puts
+ .text          0x000c0f4c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .text.strlen   0x000c0f4c       0x1c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+                0x000c0f4c                strlen
+ .text          0x000c0f68        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .text          0x000c0f68        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .text.print_repeat
+                0x000c0f68       0x6c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .text.___vfprintf_internal_r
+                0x000c0fd4      0x51c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+                0x000c0fd4                ___vfprintf_internal_r
+ .text.__vfprintf_internal
+                0x000c14f0       0x18 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+                0x000c14f0                __vfprintf_internal
+ .text          0x000c1508        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .text.__sfvwrite_small_dev
+                0x000c1508       0xa8 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+                0x000c1508                __sfvwrite_small_dev
+ .text          0x000c15b0        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .text._write_r
+                0x000c15b0       0x50 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+                0x000c15b0                _write_r
+ .text          0x000c1600        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .text          0x000c1600      0x160 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x000c1600                alt_alarm_start
+ .text          0x000c1760       0xec d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+                0x000c17c8                alt_load
+ .text          0x000c184c       0x7c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+                0x000c184c                alt_main
+ .text          0x000c18c8      0x1d0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+                0x000c18c8                alt_alarm_stop
+                0x000c196c                alt_tick
+ .text          0x000c1a98       0x30 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x000c1a98                usleep
+ .text          0x000c1ac8      0x140 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+                0x000c1b04                write
+ .text          0x000c1c08       0xd4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000c1c3c                alt_irq_init
+                0x000c1c78                alt_sys_init
+ .text          0x000c1cdc       0xc0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x000c1cdc                altera_avalon_jtag_uart_read_fd
+                0x000c1d3c                altera_avalon_jtag_uart_write_fd
+ .text          0x000c1d9c       0xec d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x000c1d9c                altera_avalon_jtag_uart_read
+ .text          0x000c1e88       0x98 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x000c1e88                altera_avalon_jtag_uart_write
+ .text          0x000c1f20       0xfc d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                0x000c1fa0                alt_avalon_timer_sc_init
+ .text          0x000c201c      0x790 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+                0x000c201c                alt_up_audio_open_dev
+                0x000c2058                alt_up_audio_enable_read_interrupt
+                0x000c20ac                alt_up_audio_disable_read_interrupt
+                0x000c2104                alt_up_audio_enable_write_interrupt
+                0x000c2158                alt_up_audio_disable_write_interrupt
+                0x000c21b0                alt_up_audio_read_interrupt_pending
+                0x000c21ec                alt_up_audio_write_interrupt_pending
+                0x000c2228                alt_up_audio_reset_audio_core
+                0x000c22bc                alt_up_audio_read_fifo_avail
+                0x000c231c                alt_up_audio_record_r
+                0x000c2384                alt_up_audio_record_l
+                0x000c23ec                alt_up_audio_write_fifo_space
+                0x000c244c                alt_up_audio_play_r
+                0x000c24b4                alt_up_audio_play_l
+                0x000c251c                alt_up_audio_read_fifo
+                0x000c25fc                alt_up_audio_write_fifo
+                0x000c26f4                alt_up_audio_read_fifo_head
+                0x000c2744                alt_up_audio_write_fifo_head
+ .text          0x000c27ac      0x6f8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+                0x000c27ac                alt_up_av_config_open_dev
+                0x000c280c                alt_up_av_config_write_data
+                0x000c2870                alt_up_av_config_read_data
+                0x000c28f0                alt_up_av_config_reset
+                0x000c2928                alt_up_av_config_enable_interrupt
+                0x000c2960                alt_up_av_config_disable_interrupt
+                0x000c2994                alt_up_av_config_read_acknowledge
+                0x000c29e8                alt_up_av_config_read_ready
+                0x000c2a20                alt_up_av_config_write_audio_cfg_register
+                0x000c2ac4                alt_up_av_config_read_video_cfg_register
+                0x000c2bac                alt_up_av_config_write_video_cfg_register
+                0x000c2c94                alt_up_av_config_read_DC2_cfg_register
+                0x000c2cec                alt_up_av_config_write_DC2_cfg_register
+                0x000c2d44                alt_up_av_config_read_D5M_cfg_register
+                0x000c2d9c                alt_up_av_config_write_D5M_cfg_register
+                0x000c2df4                alt_up_av_config_read_LTM_cfg_register
+                0x000c2e4c                alt_up_av_config_write_LTM_cfg_register
+ .text          0x000c2ea4      0x158 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x000c2ea4                alt_busy_sleep
+ .text          0x000c2ffc      0x118 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+                0x000c3038                close
+ .text          0x000c3114       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x000c3114                alt_dcache_flush_all
+ .text          0x000c3134       0x2c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x000c3160       0xe4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x000c319c                alt_dev_llist_insert
+ .text          0x000c3244       0x64 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x000c3244                _do_ctors
+ .text          0x000c32a8       0x64 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x000c32a8                _do_dtors
+ .text          0x000c330c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x000c330c       0x90 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x000c330c                alt_find_dev
+ .text          0x000c339c       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x000c339c                alt_icache_flush_all
+ .text          0x000c33bc      0x150 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x000c3490                alt_io_redirect
+ .text          0x000c350c      0x180 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+                0x000c350c                alt_irq_register
+ .text          0x000c368c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x000c368c      0x278 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+                0x000c37a4                open
+ .text          0x000c3904       0x70 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x000c3904                alt_release_fd
+ .text          0x000c3974       0x24 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x000c3974                altera_nios2_gen2_irq_init
+ .text          0x000c3998      0x108 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x000c3998                alt_find_file
+ .text          0x000c3aa0       0xb8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x000c3aa0                alt_get_fd
+ .text          0x000c3b58        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x000c3b58        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x000c3b58        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x000c3b58       0x74 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000c3b58                alt_exception_cause_generated_bad_addr
+ .text          0x000c3bcc        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .text.atexit   0x000c3bcc       0x14 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+                0x000c3bcc                atexit
+ .text          0x000c3be0        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .text.exit     0x000c3be0       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                0x000c3be0                exit
+ .text          0x000c3c00        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .text.memcmp   0x000c3c00       0x30 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+                0x000c3c00                memcmp
+ .text          0x000c3c30        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .text.__register_exitproc
+                0x000c3c30      0x128 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                0x000c3c30                __register_exitproc
+ .text          0x000c3d58        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x000c3d58      0x12c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                0x000c3d58                __call_exitprocs
+ .text          0x000c3e84       0x3c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000c3e84                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000c3ec0                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(SORT_BY_INIT_PRIORITY(.init_array.*))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x000c3ec0                        PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                0x000c3ec0                        PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                0x000c3ec0                        PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                0x000c3ec0                        PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x000c3ec0                        . = ALIGN (0x4)
+
+.rodata         0x000c3ec0      0x2f4
+                0x000c3ec0                        PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x000c3ec0                        . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000c3ec0      0x299 obj/default/hello_world.o
+ *fill*         0x000c4159        0x3 
+ .rodata._puts_r.str1.4
+                0x000c415c        0x2 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ *fill*         0x000c415e        0x2 
+ .rodata        0x000c4160       0x11 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+ *fill*         0x000c4171        0x3 
+ .rodata        0x000c4174       0x33 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x000c41a7        0x1 
+ .rodata        0x000c41a8        0xa d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x000c41b4                        . = ALIGN (0x4)
+ *fill*         0x000c41b2        0x2 
+                0x000c41b4                        PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x000c3ec0                        PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x000c41b4      0x2b4 load address 0x000c4468
+                0x000c41b4                        PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x000c41b4                        . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000c41b4        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+ .data          0x000c41b4        0x0 obj/default/hello_world.o
+ .data          0x000c41b4        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .data          0x000c41b4        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x000c41b4        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .data          0x000c41b4        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .data          0x000c41b4        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .data          0x000c41b4        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .data._impure_data
+                0x000c41b4       0x54 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                0x000c41b4                _impure_data
+ .data          0x000c4208        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .data          0x000c4208        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .data          0x000c4208        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .data          0x000c4208        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .data          0x000c4208        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x000c4208        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x000c4208        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x000c4208        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x000c4208        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x000c4208        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x000c4208       0x8c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x000c4294        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x000c4294        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x000c4294        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x000c4294        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x000c4294        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+ .data          0x000c4294        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+ .data          0x000c4294        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x000c4294        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x000c4294        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000c4294      0x1a8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000c4294                alt_dev_null
+                0x000c42bc                alt_fd_list
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x000c443c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .data          0x000c443c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .data          0x000c443c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .data          0x000c443c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .data          0x000c443c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .data          0x000c443c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000cc43c                        _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x000c443c        0x4 obj/default/hello_world.o
+                0x000c443c                headphone_volume
+ .sdata._impure_ptr
+                0x000c4440        0x4 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                0x000c4440                _impure_ptr
+ .sdata         0x000c4444        0x8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+                0x000c4444                alt_alarm_list
+ .sdata         0x000c444c       0x14 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000c444c                alt_fs_list
+                0x000c4454                alt_dev_list
+                0x000c445c                alt_max_fd
+ .sdata         0x000c4460        0x4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+                0x000c4460                alt_errno
+ .sdata         0x000c4464        0x4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x000c4464                alt_priority_mask
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x000c4468                        . = ALIGN (0x4)
+                0x000c4468                        _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x000c4468                        PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x000c4468                        PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x000c471c      0x1dc
+                0x000c471c                        __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000c471c       0x24 obj/default/hello_world.o
+                0x000c471c                audio_dev
+                0x000c4720                av_config
+                0x000c4724                audio_playing
+                0x000c4728                audio_position
+                0x000c472c                audio_loop
+                0x000c4730                buffer_underrun
+                0x000c4734                last_switch_state
+                0x000c4738                last_button_state
+                0x000c473c                muted
+ .sbss.errno    0x000c4740        0x4 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+                0x000c4740                errno
+ .sbss          0x000c4744        0xc d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+                0x000c4744                alt_argc
+                0x000c4748                alt_argv
+                0x000c474c                alt_envp
+ .sbss          0x000c4750        0xc d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+                0x000c4750                _alt_tick_rate
+                0x000c4754                _alt_nticks
+ .sbss          0x000c475c        0x4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x000c475c                alt_irq_active
+ .sbss          0x000c4760        0x4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000c4760                alt_instruction_exception_handler
+ .sbss.__stdio_exit_handler
+                0x000c4764        0x4 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                0x000c4764                __stdio_exit_handler
+ .sbss.__atexit
+                0x000c4768        0x4 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                0x000c4768                __atexit
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+ .bss           0x000c476c        0x0 obj/default/hello_world.o
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .bss           0x000c476c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x000c476c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x000c476c      0x100 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x000c476c                alt_irq
+ .bss           0x000c486c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x000c486c        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x000c486c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .bss           0x000c486c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .bss           0x000c486c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .bss           0x000c486c        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .bss.__atexit0
+                0x000c486c       0x8c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                0x000c486c                __atexit0
+ .bss           0x000c48f8        0x0 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .bss           0x000c48f8        0x0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+                0x000c48f8                        . = ALIGN (0x4)
+                0x000c48f8                        __bss_end = ABSOLUTE (.)
+
+.audio_rom      0x00000000        0x0 load address 0x000c48f8
+                [!provide]                        PROVIDE (_alt_partition_audio_rom_start = ABSOLUTE (.))
+ *(.audio_rom .audio_rom. audio_rom.*)
+                0x00000000                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_audio_rom_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_alt_partition_audio_rom_load_addr = LOADADDR (.audio_rom))
+
+.onchip_memory2_0
+                0x000c48f8        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start = ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x000c48f8                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end = ABSOLUTE (.))
+                0x000c48f8                        _end = ABSOLUTE (.)
+                0x000c48f8                        end = ABSOLUTE (.)
+                0x000c48f8                        __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr = LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2d
+ *(.comment)
+ .comment       0x00000000       0x2d obj/default/hello_world.o
+                                 0x2e (size before relaxing)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .comment       0x0000002d       0x2e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .comment       0x0000002d       0x2e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x6d0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/hello_world.o
+ .debug_aranges
+                0x00000048       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x00000068       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x00000088       0x28 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .debug_aranges
+                0x000000b0       0x28 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_aranges
+                0x000000d8       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_aranges
+                0x000000f8       0x18 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .debug_aranges
+                0x00000110       0x30 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .debug_aranges
+                0x00000140       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x00000160       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_aranges
+                0x00000180       0x18 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_aranges
+                0x00000198       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x000001b8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x000001d8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x000001f8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000218       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x00000238       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x00000258       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000278       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x00000298       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x000002b8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x000002d8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x000002f8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+ .debug_aranges
+                0x00000318       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+ .debug_aranges
+                0x00000338       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x00000358       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000378       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000398       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x000003b8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x000003d8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x000003f8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x00000418       0x18 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000430       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000450       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000470       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x00000490       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_aranges
+                0x000004b0       0x18 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x000004c8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x000004e8       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000508       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x00000528       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000548       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000568       0x30 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000598       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x000005b8       0x30 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x000005e8       0x28 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x00000610       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_aranges
+                0x00000630       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_aranges
+                0x00000650       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_aranges
+                0x00000670       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_aranges
+                0x00000690       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_aranges
+                0x000006b0       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x96b5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x3f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000003f      0x88b obj/default/hello_world.o
+ .debug_info    0x000008ca      0x347 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_info    0x00000c11       0xc4 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x00000cd5      0x666 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .debug_info    0x0000133b      0x5ec d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_info    0x00001927       0xd1 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_info    0x000019f8      0x4eb d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .debug_info    0x00001ee3      0xd7f d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .debug_info    0x00002c62      0x5c4 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_info    0x00003226      0x5a4 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_info    0x000037ca       0x85 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_info    0x0000384f      0x2b9 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x00003b08      0x144 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00003c4c      0x19d d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00003de9      0x29e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x00004087       0xce d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x00004155      0x54a d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_info    0x0000469f      0x525 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00004bc4      0x3c9 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x00004f8d      0x144 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x000050d1      0x12b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x000051fc      0x224 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x00005420      0x7a4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+ .debug_info    0x00005bc4      0x771 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+ .debug_info    0x00006335       0xd5 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x0000640a      0x32f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00006739       0x8d d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000067c6      0x567 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00006d2d      0x1a8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00006ed5       0x83 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x00006f58       0x83 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x00006fdb       0xa8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00007083      0x323 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x000073a6       0x8d d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00007433      0x561 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x00007994      0x2ec d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_info    0x00007c80       0x88 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00007d08      0x415 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000811d      0x2ac d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x000083c9       0x8d d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00008456      0x324 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000877a      0x309 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x00008a83       0x22 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00008aa5      0x175 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x00008c1a       0x22 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00008c3c      0x1e8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x00008e24      0x118 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_info    0x00008f3c      0x115 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_info    0x00009051       0xf9 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_info    0x0000914a      0x255 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_info    0x0000939f      0x234 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_info    0x000095d3       0xe2 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x00000000     0x37cb
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x1f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000001f      0x261 obj/default/hello_world.o
+ .debug_abbrev  0x00000280      0x10c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000038c       0x80 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x0000040c      0x1ec d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .debug_abbrev  0x000005f8      0x1db d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_abbrev  0x000007d3       0x8c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_abbrev  0x0000085f      0x142 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .debug_abbrev  0x000009a1      0x2d9 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .debug_abbrev  0x00000c7a      0x1c9 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x00000e43      0x1ae d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_abbrev  0x00000ff1       0x39 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_abbrev  0x0000102a      0x191 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x000011bb       0xc2 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000127d       0xfb d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00001378      0x17f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x000014f7       0x83 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x0000157a      0x149 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x000016c3      0x1c9 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000188c      0x128 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x000019b4       0xd2 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x00001a86       0xd0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x00001b56      0x190 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x00001ce6      0x1b5 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+ .debug_abbrev  0x00001e9b      0x177 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+ .debug_abbrev  0x00002012       0x88 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x0000209a      0x147 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x000021e1       0x43 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00002224      0x11b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000233f      0x12b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000246a       0x83 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x000024ed       0x83 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x00002570       0x70 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x000025e0      0x10c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x000026ec       0x43 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000272f      0x157 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x00002886      0x1b5 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_abbrev  0x00002a3b       0x46 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00002a81      0x191 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x00002c12       0xea d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00002cfc       0x43 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x00002d3f      0x11d d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x00002e5c      0x124 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x00002f80       0x12 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00002f92      0x12f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x000030c1       0x12 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x000030d3       0xed d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x000031c0       0xc1 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_abbrev  0x00003281       0xde d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_abbrev  0x0000335f       0xa1 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_abbrev  0x00003400      0x1a7 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_abbrev  0x000035a7      0x179 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_abbrev  0x00003720       0xab d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x00000000     0x3106
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066      0x431 obj/default/hello_world.o
+ .debug_line    0x00000497      0x2e3 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000077a       0x88 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x00000802       0xd4 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .debug_line    0x000008d6       0xc2 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_line    0x00000998       0x7c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_line    0x00000a14       0x4c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .debug_line    0x00000a60      0x581 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .debug_line    0x00000fe1       0xd7 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_line    0x000010b8       0xae d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_line    0x00001166       0x3a d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_line    0x000011a0       0xed d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000128d       0x8f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000131c       0x99 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x000013b5       0xf2 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x000014a7       0x6e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x00001515      0x139 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_line    0x0000164e       0xbb d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00001709       0x8a d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00001793       0xa4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00001837       0x7e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x000018b5       0xb8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x0000196d      0x26f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+ .debug_line    0x00001bdc      0x259 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+ .debug_line    0x00001e35       0xd2 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x00001f07      0x117 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000201e       0x4e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000206c       0xa2 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000210e       0xca d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x000021d8       0x69 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x00002241       0x69 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x000022aa       0x4c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x000022f6       0xa1 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00002397       0x4c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x000023e3       0xd2 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x000024b5      0x162 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_line    0x00002617       0x43 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000265a      0x159 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x000027b3       0x77 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000282a       0x51 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000287b       0xd7 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x00002952       0xb3 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x00002a05       0x6b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00002a70       0xb4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00002b24       0x9d d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00002bc1       0x9b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x00002c5c       0x65 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_line    0x00002cc1       0x80 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_line    0x00002d41       0x8f d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_line    0x00002dd0      0x163 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_line    0x00002f33      0x159 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_line    0x0000308c       0x7a d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x00000000     0x1208
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x150 obj/default/hello_world.o
+ .debug_frame   0x00000150       0x50 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x000001a0       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x000001c0       0x48 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .debug_frame   0x00000208       0x48 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_frame   0x00000250       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_frame   0x00000270       0x90 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .debug_frame   0x00000300       0x3c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_frame   0x0000033c       0x30 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_frame   0x0000036c       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x000003a0       0x5c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000003fc       0x2c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000428       0x64 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x0000048c       0x38 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x000004c4       0x60 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x00000524       0x88 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x000005ac       0x60 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000060c       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000640       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000674       0x60 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x000006d4      0x2ac d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+ .debug_frame   0x00000980      0x2a0 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+ .debug_frame   0x00000c20       0x38 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x00000c58       0x60 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x00000cb8       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000cec       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000d20       0x60 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000d80       0x38 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000db8       0x38 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x00000df0       0x38 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000e28       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000e5c       0x60 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x00000ebc       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+ .debug_frame   0x00000ef0       0x84 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x00000f74       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x00000fa8       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x00000fdc       0x38 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00001014       0x34 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x00001048       0x38 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00001080       0x5c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x000010dc       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_frame   0x000010fc       0x28 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_frame   0x00001124       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_frame   0x00001144       0x44 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_frame   0x00001188       0x54 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_frame   0x000011dc       0x2c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x00000000     0x1d0a
+ *(.debug_str)
+ .debug_str     0x00000000       0x77 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+                                 0x7e (size before relaxing)
+ .debug_str     0x00000077      0x55a obj/default/hello_world.o
+                                0x604 (size before relaxing)
+ .debug_str     0x000005d1       0xd7 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                0x122 (size before relaxing)
+ .debug_str     0x000006a8        0x9 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                 0xe6 (size before relaxing)
+ .debug_str     0x000006b1      0x32a d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+                                0x402 (size before relaxing)
+ .debug_str     0x000009db       0x14 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                                0x3b3 (size before relaxing)
+ .debug_str     0x000009ef       0x14 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+                                0x114 (size before relaxing)
+ .debug_str     0x000009ef        0xd d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                                0x390 (size before relaxing)
+ .debug_str     0x000009fc      0x28e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+                                0x749 (size before relaxing)
+ .debug_str     0x00000c8a       0x25 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+                                0x3bd (size before relaxing)
+ .debug_str     0x00000caf       0x25 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+                                0x39c (size before relaxing)
+ .debug_str     0x00000caf      0x106 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_str     0x00000caf       0x72 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                0x223 (size before relaxing)
+ .debug_str     0x00000d21      0x100 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+                                0x1f0 (size before relaxing)
+ .debug_str     0x00000e21       0x6f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x00000e90       0x37 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+                                0x1fe (size before relaxing)
+ .debug_str     0x00000ec7        0xf d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+                                0x116 (size before relaxing)
+ .debug_str     0x00000ed6      0x129 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+                                0x2fd (size before relaxing)
+ .debug_str     0x00000fff      0x160 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                0x3f1 (size before relaxing)
+ .debug_str     0x0000115f       0x3b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                0x287 (size before relaxing)
+ .debug_str     0x0000119a       0x3b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                0x167 (size before relaxing)
+ .debug_str     0x0000119a      0x15c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_str     0x0000119a       0x64 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                                0x1d7 (size before relaxing)
+ .debug_str     0x000011fe      0x157 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+                                0x3ec (size before relaxing)
+ .debug_str     0x00001355      0x254 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+                                0x534 (size before relaxing)
+ .debug_str     0x000015a9       0x1a d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                0x119 (size before relaxing)
+ .debug_str     0x000015c3       0x16 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+                                0x1c0 (size before relaxing)
+ .debug_str     0x000015d9       0xfd d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_str     0x000015d9       0x3e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+                                0x319 (size before relaxing)
+ .debug_str     0x00001617      0x174 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_str     0x00001617       0x27 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                 0x89 (size before relaxing)
+ .debug_str     0x0000163e       0x2b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                 0x88 (size before relaxing)
+ .debug_str     0x00001669        0x8 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+                                 0xfa (size before relaxing)
+ .debug_str     0x00001671        0x7 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                0x1a4 (size before relaxing)
+ .debug_str     0x00001678       0xfd d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_str     0x00001678       0x2c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                0x324 (size before relaxing)
+ .debug_str     0x000016a4       0x46 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+                                0x1a2 (size before relaxing)
+ .debug_str     0x000016ea       0x12 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                 0xf3 (size before relaxing)
+ .debug_str     0x000016fc       0x35 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+                                0x234 (size before relaxing)
+ .debug_str     0x00001731      0x17d d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_str     0x00001731      0x103 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_str     0x00001731      0x1b1 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_str     0x00001731       0x10 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                0x1c1 (size before relaxing)
+ .debug_str     0x00001741       0x18 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                                 0x78 (size before relaxing)
+ .debug_str     0x00001759       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                0x144 (size before relaxing)
+ .debug_str     0x00001779       0x1e d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                                 0x7e (size before relaxing)
+ .debug_str     0x00001797      0x461 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                0x546 (size before relaxing)
+ .debug_str     0x00001bf8       0x44 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+                                0x14b (size before relaxing)
+ .debug_str     0x00001c3c       0x26 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                                0x136 (size before relaxing)
+ .debug_str     0x00001c62      0x10e d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_str     0x00001c62       0x6a d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                                0x1e3 (size before relaxing)
+ .debug_str     0x00001ccc       0x27 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                                0x1b0 (size before relaxing)
+ .debug_str     0x00001cf3       0x17 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+                                0x105 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x40
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x00000010       0x30 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x000c7ffc                        __alt_data_end = 0xc7ffc
+                0x000c7ffc                        PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0xc7ffc)
+OUTPUT(Audio_System.elf elf32-littlenios2)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x70
+ .debug_ranges  0x00000000       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x28 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000048       0x28 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exception_entry.o)
+
+.debug_line_str
+                0x00000000     0x1099
+ .debug_line_str
+                0x00000000      0x38c obj/default/hello_world.o
+                                0x412 (size before relaxing)
+ .debug_line_str
+                0x0000038c       0xf2 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                0x187 (size before relaxing)
+ .debug_line_str
+                0x0000047e       0x3a d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                0x17e (size before relaxing)
+ .debug_line_str
+                0x000004b8      0x23c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+                                0x2e1 (size before relaxing)
+ .debug_line_str
+                0x000006f4       0x3f d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                                0x2d3 (size before relaxing)
+ .debug_line_str
+                0x00000733       0x69 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+                                0x259 (size before relaxing)
+ .debug_line_str
+                0x0000079c       0x67 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                                0x25a (size before relaxing)
+ .debug_line_str
+                0x00000803       0x91 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+                                0x33e (size before relaxing)
+ .debug_line_str
+                0x00000894       0x43 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+                                0x2e7 (size before relaxing)
+ .debug_line_str
+                0x000008d7       0x38 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+                                0x2cf (size before relaxing)
+ .debug_line_str
+                0x0000090f       0x3b d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+                                0x186 (size before relaxing)
+ .debug_line_str
+                0x0000094a       0xa4 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                0x149 (size before relaxing)
+ .debug_line_str
+                0x000009ee       0x2a d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_load.o)
+                                0x10e (size before relaxing)
+ .debug_line_str
+                0x00000a18       0x45 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_main.o)
+                                0x1f3 (size before relaxing)
+ .debug_line_str
+                0x00000a5d       0x13 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_tick.o)
+                                0x134 (size before relaxing)
+ .debug_line_str
+                0x00000a70       0x26 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_usleep.o)
+                                0x174 (size before relaxing)
+ .debug_line_str
+                0x00000a96       0xaa d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_write.o)
+                                0x2ba (size before relaxing)
+ .debug_line_str
+                0x00000b40       0x92 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                0x1e8 (size before relaxing)
+ .debug_line_str
+                0x00000bd2       0x35 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                0x190 (size before relaxing)
+ .debug_line_str
+                0x00000c07       0x2b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                0x155 (size before relaxing)
+ .debug_line_str
+                0x00000c32       0x2c d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                0x158 (size before relaxing)
+ .debug_line_str
+                0x00000c5e       0x36 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                                0x16b (size before relaxing)
+ .debug_line_str
+                0x00000c94       0x25 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio.o)
+                                0x180 (size before relaxing)
+ .debug_line_str
+                0x00000cb9       0x36 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_up_avalon_audio_and_video_config.o)
+                                0x1c4 (size before relaxing)
+ .debug_line_str
+                0x00000cef       0x19 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                 0xfb (size before relaxing)
+ .debug_line_str
+                0x00000d08       0x14 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_close.o)
+                                0x1a0 (size before relaxing)
+ .debug_line_str
+                0x00000d1c       0x1f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                 0xf7 (size before relaxing)
+ .debug_line_str
+                0x00000d3b       0x12 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev.o)
+                                0x28f (size before relaxing)
+ .debug_line_str
+                0x00000d4d       0x1f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                0x13c (size before relaxing)
+ .debug_line_str
+                0x00000d6c       0x17 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                 0xdf (size before relaxing)
+ .debug_line_str
+                0x00000d83       0x17 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                 0xdf (size before relaxing)
+ .debug_line_str
+                0x00000d9a       0x14 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_errno.o)
+                                0x159 (size before relaxing)
+ .debug_line_str
+                0x00000dae       0x17 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                0x1f4 (size before relaxing)
+ .debug_line_str
+                0x00000dc5       0x1f d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                 0xf7 (size before relaxing)
+ .debug_line_str
+                0x00000de4       0x2b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                0x2b8 (size before relaxing)
+ .debug_line_str
+                0x00000e0f       0x2b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_register.o)
+                                0x149 (size before relaxing)
+ .debug_line_str
+                0x00000e3a       0x17 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                 0xf5 (size before relaxing)
+ .debug_line_str
+                0x00000e51       0x13 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_open.o)
+                                0x133 (size before relaxing)
+ .debug_line_str
+                0x00000e64       0x19 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                0x139 (size before relaxing)
+ .debug_line_str
+                0x00000e7d       0x20 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                 0xfa (size before relaxing)
+ .debug_line_str
+                0x00000e9d       0x18 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_find_file.o)
+                                0x211 (size before relaxing)
+ .debug_line_str
+                0x00000eb5       0x15 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                0x13c (size before relaxing)
+ .debug_line_str
+                0x00000eca       0x1a d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                0x116 (size before relaxing)
+ .debug_line_str
+                0x00000ee4       0x3b d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                0x14d (size before relaxing)
+ .debug_line_str
+                0x00000f1f       0x72 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+                                0x1ec (size before relaxing)
+ .debug_line_str
+                0x00000f91       0x37 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                                0x256 (size before relaxing)
+ .debug_line_str
+                0x00000fc8       0x39 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+                                0x259 (size before relaxing)
+ .debug_line_str
+                0x00001001       0x3b d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                                0x2cf (size before relaxing)
+ .debug_line_str
+                0x0000103c       0x40 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                                0x1fb (size before relaxing)
+ .debug_line_str
+                0x0000107c       0x1d d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_exit.o)
+                                 0xeb (size before relaxing)
+
+.debug_loclists
+                0x00000000     0x1183
+ .debug_loclists
+                0x00000000      0x37a d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_loclists
+                0x0000037a       0x5b d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_loclists
+                0x000003d5       0xaa d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .debug_loclists
+                0x0000047f       0x73 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_loclists
+                0x000004f2       0x32 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_loclists
+                0x00000524      0x822 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .debug_loclists
+                0x00000d46       0xc5 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_loclists
+                0x00000e0b       0x88 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_loclists
+                0x00000e93       0x2a d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_loclists
+                0x00000ebd       0x20 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_loclists
+                0x00000edd       0x8c d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_loclists
+                0x00000f69      0x128 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_loclists
+                0x00001091       0xf2 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+
+.debug_rnglists
+                0x00000000      0x1e4
+ .debug_rnglists
+                0x00000000       0x3f d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_rnglists
+                0x0000003f       0x19 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-printf.o)
+ .debug_rnglists
+                0x00000058       0x1a d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_rnglists
+                0x00000072       0x13 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_rnglists
+                0x00000085       0x84 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-vfprintf.o)
+ .debug_rnglists
+                0x00000109       0x14 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_rnglists
+                0x0000011d       0x13 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_rnglists
+                0x00000130       0x16 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_rnglists
+                0x00000146       0x14 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_rnglists
+                0x0000015a       0x19 d:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/software/Audio_System_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_rnglists
+                0x00000173       0x13 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_rnglists
+                0x00000186       0x13 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_rnglists
+                0x00000199       0x13 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_rnglists
+                0x000001ac       0x14 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_rnglists
+                0x000001c0       0x24 d:/fetel_worksoft/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)

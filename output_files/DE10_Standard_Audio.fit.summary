@@ -1,12 +1,12 @@
-Fitter Status : Successful - Thu Mar 20 00:58:11 2025
+Fitter Status : Successful - Thu Mar 20 16:02:14 2025
 Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 Revision Name : DE10_Standard_Audio
 Top-level Entity Name : DE10_Standard_Audio
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 1,328 / 41,910 ( 3 % )
-Total registers : 1906
+Logic utilization (in ALMs) : 1,325 / 41,910 ( 3 % )
+Total registers : 1913
 Total pins : 33 / 499 ( 7 % )
 Total virtual pins : 0
 Total block memory bits : 2,203,632 / 5,662,720 ( 39 % )

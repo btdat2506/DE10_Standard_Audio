@@ -37,7 +37,7 @@ module audio_system_audio_rom (
                               )
 ;
 
-  parameter INIT_FILE = "audio_data.mif";
+  parameter INIT_FILE = "D:/FETEL_WorkDir/Y4S2_HeThongNhung/DE10_Standard_Audio/audio_data.mif";
 
 
   output  [ 15: 0] readdata;
