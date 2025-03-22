@@ -250,16 +250,16 @@ int initialize_audio(void) {
 
     // Configure each WM8731 register using the provided HAL functions - EXACTLY AS IN WORKING CODE
     int config_success = 1;
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_LEFT_LINE_IN, 0x17) == 0);
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_RIGHT_LINE_IN, 0x17) == 0);
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_LEFT_HEADPHONE_OUT, 0x79) == 0);
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_RIGHT_HEADPHONE_OUT, 0x79) == 0);
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_ANALOG_AUDIO_PATH_CTRL, 0x10) == 0);
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_DIGITAL_AUDIO_PATH_CTRL, 0x00) == 0);
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_POWER_DOWN_CTRL, 0x00) == 0);
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_AUDIO_DIGITAL_INTERFACE, 0x42) == 0);
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_SAMPLING_CTRL, 0x00) == 0);
-    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_ACTIVE_CTRL, 0x01) == 0);
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_LEFT_LINE_IN,             0x17) == 0);    // VOLUME = 0db (0x17)
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_RIGHT_LINE_IN,            0x17) == 0);    // VOLUME = 0db (0x17)
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_LEFT_HEADPHONE_OUT,       0x79) == 0);    // VOLUME = 0db (0x79)
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_RIGHT_HEADPHONE_OUT,      0x79) == 0);    // VOLUME = 0db (0x79) Template: 0x179
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_ANALOG_AUDIO_PATH_CTRL,   0x10) == 0);    // {DACSEL = 1, MUTE MIC = 1} Template: 0x012 
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_DIGITAL_AUDIO_PATH_CTRL,  0x00) == 0);    // {HPOR = 0, DACMUTE = 0, DEEMP = 11 (48khz), ADCHPD = 1} Template: 0x00
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_POWER_DOWN_CTRL,          0x00) == 0);    // ADC of, DAC on, Linout ON, Power ON: Template: 0b000000111    
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_AUDIO_DIGITAL_INTERFACE,  0x42) == 0);    // DSP, 16 bit, slave mode: Template: 0b000010011 (0x023); {BCLKINV = 0, MS = 0 (Slave), LRSWAP = 0 (Right Clock), LRP = 0 (Right), IWL = 00 (16 bits), FORMAT = 01 (MSB-First, Left Justified, 16 bit)}
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_SAMPLING_CTRL,            0x01) == 0);    // Normal mode: 0x00, USB mode: Template: 0x01
+    config_success &= (alt_up_av_config_write_audio_cfg_register(av_config, AUDIO_REG_ACTIVE_CTRL,              0x01) == 0);    // Inactive: 0x00, Active: 0x01; Template: 0x1FF
 
     if (!config_success) {
         printf("Error: Failed to configure audio codec\n");
